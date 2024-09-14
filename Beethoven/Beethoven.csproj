@@ -10,6 +10,12 @@
 
   <ItemGroup>
     <None Remove="Recursos\abb1.jpg" />
+    <None Remove="Recursos\abb2.jpg" />
+    <None Remove="Recursos\abb3.jpg" />
+    <None Remove="Recursos\abb4.jpg" />
+    <None Remove="Recursos\abb5.jpg" />
+    <None Remove="Recursos\abb6.jpg" />
+    <None Remove="Recursos\abb7.jpg" />
     <None Remove="Recursos\audio\Spanisch\header1.mp3" />
     <None Remove="Recursos\audio\Spanisch\Zeile 1.mp3" />
     <None Remove="Recursos\audio\Spanisch\Zeile 2.mp3" />
@@ -40,12 +46,33 @@
     <None Remove="Recursos\audio\zusammengerafft_en.MP3" />
     <None Remove="Recursos\fon2.jpg" />
     <None Remove="Recursos\idioma.png" />
+    <None Remove="Recursos\img1.jpg" />
+    <None Remove="Recursos\img2.jpg" />
     <None Remove="Recursos\menu.mp3" />
+    <None Remove="Recursos\menuIn.mp3" />
     <None Remove="Recursos\saver.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Recursos\abb1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\abb2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\abb3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\abb4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\abb5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\abb6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\abb7.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Recursos\fon2.jpg">
@@ -54,7 +81,13 @@
     <Content Include="Recursos\idioma.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Recursos\img2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Recursos\menu.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\menuIn.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

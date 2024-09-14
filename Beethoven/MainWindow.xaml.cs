@@ -18,9 +18,68 @@ namespace Beethoven
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<string> tagsList = new List<string>
+{
+    "BonnPage", "Clases", "Musico", "Independiente", "Testamento",
+    "Heroica", "Apogeo", "Ultimos", "Sobrino", "amigos",
+    "BethoveenyGoet", "Cuaderno", "Casa", "Obras",
+    "Literatura", "FuenteImagenes"
+};
         private MediaPlayer mediaPlayer;
         private string[] audioFiles;
         private int currentFileIndex = 0;
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Si es posible retroceder, ejecuta el comando de navegación hacia atrás
+            if (ContentFrame.CanGoBack)
+            {
+                ContentFrame.GoBack();
+            }
+        }
+
+        private void NextButton_Click(object sender, RoutedEventArgs e)
+        {
+            var currentPage = ContentFrame.Content as Page;
+
+            // Si es posible avanzar, ejecuta el comando de navegación hacia adelante
+            if (ContentFrame.CanGoForward)
+            {
+                ContentFrame.GoForward();
+            }else
+            {
+                if (currentPage == null)
+                {
+                    goNavi("BonnPage");
+                }
+                else
+                {
+                    string currentTag = GetCurrentPageTag(currentPage);
+
+                    // Encontrar el índice del tag actual en la lista
+                    int currentIndex = tagsList.IndexOf(currentTag);
+
+                    // Si se encontró el tag actual en la lista y no es el último, navegar al siguiente
+                    if (currentIndex >= 0 && currentIndex < tagsList.Count - 1)
+                    {
+                        string nextTag = tagsList[currentIndex + 1];
+                        goNavi(nextTag);  // Navega a la siguiente página usando su tag
+                    }
+                    else
+                    {
+                        
+                        ContentFrame.Content = null;
+                        this.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Recursos/saver.jpg")));
+                        PlayMenuAudio();
+                    }
+                }
+            }
+
+        }
+        private string GetCurrentPageTag(Page currentPage)
+        {
+            // Obtener el nombre del tipo de la página actual, por ejemplo, "BonnPage"
+            return currentPage.GetType().Name;
+        }
         public MainWindow()
         {
             InitializeComponent();
@@ -80,6 +139,7 @@ namespace Beethoven
                     // Llamar al método de manejo de selección
                     goNavi(tagValue);
                 }
+                selectedItem.IsSelected = false;
 
                 // Evitar que el evento se propague a otros elementos
                 e.Handled = true;
@@ -88,17 +148,22 @@ namespace Beethoven
 
         private void PlayMenuAudio()
         {
+            string audio = "menu.mp3";
+            if (SessionManager.CurrentLanguage != "es-ES")
+            {
+                audio = "menuIn.mp3";
+            }
             // Ruta del recurso menu.mp3 en el proyecto
             string exeDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
+
             // Ruta completa al archivo menu.mp3 (asumiendo que está en Recursos/audio/Spanisch relativo al ejecutable)
-            string audioFilePath = Path.Combine(exeDirectory, @"Recursos\menu.mp3");
+            string audioFilePath = Path.Combine(exeDirectory, @"Recursos\" + audio);
 
             // Cargar y reproducir el archivo de audio
             mediaPlayer.Open(new Uri(audioFilePath, UriKind.Absolute));
             mediaPlayer.Play();
         }
-
 
         public void goNavi(string tag)
         {
@@ -110,7 +175,15 @@ namespace Beethoven
         }
         private void MenuListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (MenuListBox.SelectedItem is ListBoxItem selectedItem)
+            {
+                // Obtén el Tag del elemento seleccionado
+                var tag = selectedItem.Tag;
 
+                // Llama al método goNavi pasándole el tag
+                goNavi(tag.ToString());
+                MenuListBox.SelectedItem = null;
+            }
         }
         protected override void OnKeyDown(KeyEventArgs e)
         {
@@ -147,6 +220,25 @@ namespace Beethoven
             LoadLanguage(SessionManager.CurrentLanguage);
             ContentFrame.Content = null;
             this.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Recursos/saver.jpg")));
+            PlayMenuAudio();
+        }
+
+        private void MyTreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        {
+            TreeView treeView = sender as TreeView;
+
+            if (treeView != null)
+            {
+                // Obtener el elemento seleccionado
+
+                    // Aquí no llamamos a goNavi ni realizamos ninguna acción adicional
+
+                    // Después de procesar, deselecciona el item
+                    treeView.SelectedItemChanged -= MyTreeView_SelectedItemChanged; // Desconectar temporalmente el evento
+             
+                    treeView.SelectedItemChanged += MyTreeView_SelectedItemChanged; // Reconectar el evento
+
+            }
         }
     }
 }

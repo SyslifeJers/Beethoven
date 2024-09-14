@@ -11,16 +11,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Beethoven.Vistas
 {
     /// <summary>
-    /// Lógica de interacción para Musico.xaml
+    /// Lógica de interacción para Sobrino.xaml
     /// </summary>
-    public partial class Musico : Page
+    public partial class Sobrino : Page
     {
-        public Musico()
+        public Sobrino()
         {
             InitializeComponent();
             LoadLanguage(SessionManager.CurrentLanguage);
@@ -43,10 +44,10 @@ namespace Beethoven.Vistas
             switch (cultureCode)
             {
                 case "es-ES":
-                    dict.Source = new Uri("..\\Recursos\\idioma\\MusicoEs.xaml", UriKind.Relative);
+                    dict.Source = new Uri("..\\Recursos\\idioma\\Sobrino.xaml", UriKind.Relative);
                     break;
                 default:
-                    dict.Source = new Uri("..\\Recursos\\idioma\\MusicoIn.xaml", UriKind.Relative);
+                    dict.Source = new Uri("..\\Recursos\\idioma\\SobrinoIn.xaml", UriKind.Relative);
                     break;
             }
             Resources.MergedDictionaries.Clear();

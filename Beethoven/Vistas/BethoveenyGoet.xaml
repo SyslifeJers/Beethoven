@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Beethoven.Vistas"
         mc:Ignorable="d"
-        Title="BethoveenyGoet" Height="450" Width="800">
+        Title="BethoveenyGoet" >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"></ColumnDefinition>
@@ -14,27 +14,59 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"></RowDefinition>
-            <RowDefinition Height="1*" ></RowDefinition>
-            <RowDefinition Height="4*" ></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
         </Grid.RowDefinitions>
 
-
+        <!-- Title -->
         <TextBlock Margin="0,40,0,0" Grid.Column="0" Grid.Row="0" FontSize="24" HorizontalAlignment="Center" Grid.ColumnSpan="3" Text="{DynamicResource Title}" />
-        <StackPanel Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2">
-            <TextBlock  FontStyle="Italic"  FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap" >
-             <Run Text="{DynamicResource Text1}" />
-             <LineBreak/>
-             <Run Text="{DynamicResource Text2}" />
-            </TextBlock>
 
-        </StackPanel>
-        <StackPanel Grid.Column="1" Grid.Row="2" >
-            <TextBlock Foreground="White"  FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
-            <Run Text="{DynamicResource Text3}" />
-             <LineBreak/>
+        <!-- Dynamic text in StackPanel -->
+
+        <!-- Scrollable content in Grid (instead of StackPanel) -->
+        <Grid Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock Foreground="White" FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
+            <!-- Text1 (Impar) -->
+            <Run Text="{DynamicResource Text1}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+
+            <!-- Text2 (Par) -->
+            <Run Text="{DynamicResource Text2}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text3 (Impar) -->
+            <Run Text="{DynamicResource Text3}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text4 (Par) -->
             <Run Text="{DynamicResource Text4}" />
-            </TextBlock>
+            <LineBreak/>
+            <LineBreak/>
 
-        </StackPanel>
-         </Grid>
+            <!-- Text5 (Impar) -->
+            <Run Text="{DynamicResource Text5}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text6 (Par) -->
+            <Run Text="{DynamicResource Text6}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text7 (Impar) -->
+            <Run Text="{DynamicResource Text7}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+
+                </TextBlock>
+            </ScrollViewer>
+        </Grid>
+
+
+
+    </Grid>
 </Page>

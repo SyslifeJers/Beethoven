@@ -1,0 +1,40 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="Title">Independent musician</sys:String>
+
+    <sys:String x:Key="Text1">"Whose work is it?" – "Beethoven's." – "Ah, don't deal with someone who has learned absolutely nothing and will never accomplish anything decent."
+[Albrechtsberger to Dolezalek; quoted in Landon, H.C. Robbins, *Beethoven*, Zürich 1974, p.41] 
+Beethoven supposedly arrived in Vienna on November 10, 1792. It wasn't easy for him to devote himself to his studies here either. Other composers in Vienna did not think much of him, and "Papa" Haydn did not pay much attention to his pupil, being busy and in demand everywhere. Behind Haydn's back, Beethoven took lessons with Johann Schenk (composer of *Der Dorfbarbier* [*The Village Barber*]) and went to Haydn with the already corrected work. When Haydn traveled to London for the second time (1794), Beethoven studied counterpoint with Albrechtsberger and song composition with Salieri.
+    </sys:String>
+
+    <sys:String x:Key="Text2">The letters of recommendation from Count Waldstein gave Beethoven access to the aristocratic circles of Vienna. He earned a reputation as an excellent pianist and performed for a large audience for the first time on March 29, 1795, at the Burgtheater. On May 19 of the same year, he signed a contract with the Artaria publishing house. Three piano trios were published, and from this moment, Beethoven began to number his works. He dedicated the three piano sonatas, Op. 2, to Joseph Haydn, and these were first performed in his presence at one of the popular Friday morning concerts at Prince Karl Lichnowsky's residence.
+    </sys:String>
+
+    <sys:String x:Key="Text3">In 1794, the Electorate of Cologne was dissolved due to the French invasion, and as a result, Beethoven no longer received any income from the Court Chapel. Beethoven now lived as an "independent artist": he supported himself with teaching and the fees he received for his compositions. Until 1794, Beethoven had published little, apart from a few works printed during his time in Bonn, and presented himself as a pianist and composer only in Viennese salons. His patrons and benefactors treated him exceptionally well; they must have recognized his special genius. Beethoven lived in Prince Lichnowsky's house for at least two years and, in 1809, resided at Count Erdödy’s house, to whose wife he dedicated the Piano Trio Op. 97 and the Cello Sonatas Op. 102. He had a deep friendship with Count Franz von Brunsvik, whose sister Therese (1775–1861) was Beethoven's pupil as early as 1800. In 1811–1812, Beethoven harbored great affection for her. Due to the social class difference, Beethoven did not seriously consider marriage but rather wanted to marry Therese Malfatti, who declined his proposal.
+    </sys:String>
+
+    <sys:String x:Key="Text4">Beethoven's works were well-paid, and he also received an annual salary from Prince Lichnowsky of 600 florins from 1800 onwards. When, in 1808, Jérôme Bonaparte wanted to hire Beethoven in Kassel, Archduke Rudolph, Prince Lobkowitz, and Prince Kinsky joined forces and paid him 4,000 florins a year to stay in Vienna. After the devaluation in 1811, this salary was no longer as valuable as before, but it remained a considerable pension.
+    </sys:String>
+
+    <sys:String x:Key="Text5">Despite (or perhaps because of) his close relations with aristocratic circles, Beethoven was always a democrat and republican. He wanted to dedicate his *Eroica* (3rd Symphony) to Napoleon, as he saw him as a true hero of freedom, but when Napoleon proclaimed himself emperor, Beethoven withdrew the dedication.
+    </sys:String>
+
+    <sys:String x:Key="Text6">Beethoven's permanent move to Vienna was the most decisive turning point in his life. Had he had a fixed position in Bonn, a circle of friends, and an appreciated teacher... but he didn't know what the future held for him in Vienna. In Vienna, he was separated from his family environment, had no fixed position, and faced a political situation that did not flirt with the liberal ideology of the French Revolution but rather sought to combat and suppress these anti-government currents.
+    </sys:String>
+
+    <sys:String x:Key="Text7">But Beethoven wanted to advance his musical studies and perfect his genius. He studied with the best teachers in Vienna—Haydn, Salieri, and Albrechtsberger—and made sure that his reputation as a piano virtuoso grew.
+    </sys:String>
+
+    <sys:String x:Key="Text8">When Beethoven arrived in Vienna, he initially lived in Prince Lichnowsky's house. His impetuous personality, rough behavior, along with his brilliant musicality and surprising skill as a pianist, must have captivated the noble circles of Vienna. His spirit of contradiction, his rudeness, and his coarseness were closely related to the difficult situation that arose from his separation from home, loneliness, and uprootedness.
+    </sys:String>
+
+    <sys:String x:Key="Text9">"He was small and insignificant, with an ugly red face marked by smallpox. His hair was very dark and fell tangled over his face. His clothes were very plain and not much different from what was worn in those days, especially in our circles. Moreover, he spoke a lot in dialect, and his simple manner of speaking and behavior showed no education but rather a lack of it in all his conduct and behavior. He was very proud; I saw the mother of Prince Lichnowsky, Countess Thun, kneeling before him, reclining on the sofa, asking him to kindly play something. But Beethoven did not."
+[Wife of von Bernhard. Kerst, op. cit. I. P.24]
+    </sys:String>
+
+    <sys:String x:Key="Text10">Beethoven was also stubborn and hated being treated as the "signboard" of the aristocracy. He developed an absolute aversion to performing at parties and could not tolerate any form of criticism. However, his noble friends patiently accepted these quirks.
+    </sys:String>
+
+
+</ResourceDictionary>

@@ -4,23 +4,31 @@
 
     <sys:String x:Key="Title">Literature</sys:String>
 
-    <sys:String x:Key="Text1">Life and Works:</sys:String>
+    <sys:String x:Key="Text1">Life and Works: Works:</sys:String>
 
-    <sys:String x:Key="Text2">Brandenburg, Sieghard et al (ed.). "Briefe Beethovens" ["Letters of Beethoven"]. 8 vols. Munich and Bonn: 1996 and onwards.
-"Briefe Beethovens" ["Letters of Beethoven"]. Complete Works on CD-Rom. Munich: Henle.
-Köhler-Herre-Beck (ed.) "Konversationshefte" ["Conversation Notebooks"]. 10 vols. Leipzig: 1972-1993.
-Adorno, Theodor W. "Beethoven. Philosophie der Musik. Fragmente und Texte" ["Beethoven. Philosophy of Music. Fragments and Texts"]. Frankfurt: 1993.
-Dahlhaus, Carl. "Ludwig van Beethoven und seine Zeit" ["Ludwig van Beethoven and His Time"]. Laaber: 1987.
-Fiebig, Paul. "Über Beethoven" ["On Beethoven"]. Stuttgart: 1993.
-Landon, H.C. Robbins. "Beethoven. Sein Leben und seine Welt in zeitgenössischen Bildern und Texten" ["Beethoven. His Life and World in Contemporary Images and Texts"]. Zurich: 1970.
-Rexroth, Dieter. "Beethoven. Leben-Werke-Dokumente" ["Beethoven. Life-Works-Documents"]. Mainz and Munich: 1982.
-Solomon, Maynard. "Beethoven" ["Beethoven"]. Munich: 1979.
-Thayer, Alexander Wheelock. Completed by Hermann Deiters. Revised by Hugo Riemann. "Ludwig van Beethovens Leben" ["The Life of Ludwig van Beethoven"]. Leipzig: 1908-1923.</sys:String>
+    <sys:String x:Key="Text2">
+        Brandenburg, Sieghard et al (ed.). "Beethoven's Letters" ["Cartas de Beethoven"]. 8 vols. Munich and Bonn: 1996 and onwards.
+"Beethoven's Letters" ["Cartas de Beethoven"]. Complete works on CD-Rom. Munich: Henle.
+Köhler-Herre-Beck (ed.) "Conversation Books" ["Cuadernos de conversaciones"]. 10 vols. Leipzig: 1972-1993.
+    </sys:String>
 
-    <sys:String x:Key="Text3">Works:
-Thematic-Bibliographical Index by Georg Kinsky of all his finished compositions. After the author's death, ed. by Hans Halm. Munich and Duisburg:
-Old Complete Works: Breitkopf y Härtel, 1862-88.
-New Complete Works: Since 1960 by Henle, Munich and Duisburg (ed.: Beethoven Archive of Bonn).</sys:String>
+    <sys:String x:Key="Text3">
+        Adorno, Theodor W. "Beethoven. Philosophy of Music. Fragments and Texts" ["Beethoven. Filosofía de la música. Fragmentos y Textos"]. Frankfurt: 1993.
+Dahlhaus, Carl. "Ludwig van Beethoven and His Time" ["Ludwig van Beethoven y su época"]. Laaber: 1987.
+Fiebig, Paul. "About Beethoven" ["Sobre Beethoven"]. Stuttgart: 1993.
+Landon, H.C. Robbins. "Beethoven. His Life and His World in Contemporary Pictures and Texts" ["Beethoven. Su vida y su mundo en imágenes y textos contemporáneos"]. Zurich: 1970.
+Rexroth, Dieter. "Beethoven. Life-Works-Documents" ["Beethoven. Vida-obra-documentos"]. Mainz and Munich: 1982.
+Solomon, Meynard. "Beethoven" ["Beethoven"]. Munich: 1979.
+Thayer, Alexander Wheelock. Completed by Hermann Deiter. Revised by Hugo Riemann. "Ludwig van Beethoven's Life" ["La vida de Ludwig van Beethoven"]. Leipzig: 1908-1923.
+    </sys:String>
+
+    <sys:String x:Key="Text4">Works:</sys:String>
+
+    <sys:String x:Key="Text5">
+        Thematic-Bibliographic Index by Georg Kinsky of all his completed compositions. After the author's death, ed. by Hans Halm. Munich and Duisburg:
+Complete old editions: Breitkopf  Härtel, 1862-88.
+New complete works: Since 1960 in Henle, Munich, and Duisburg (ed.: Beethoven Archive in Bonn).
+    </sys:String>
 
 
 </ResourceDictionary>

@@ -2,9 +2,10 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Title">obras1 ópera</sys:String>
-    <sys:String x:Key="Text1">"¡Yo no toco para</sys:String>
-    <sys:String x:Key="Text2">misas</sys:String>
+    <sys:String x:Key="Title">obras</sys:String>
+    <sys:String x:Key="Text1_">1 ópera</sys:String>
+  
+    <sys:String x:Key="Text2">2 misas</sys:String>
     <sys:String x:Key="Text3">Oratorios, cantatas y canciones con orquesta</sys:String>
     <sys:String x:Key="Text4">9 sinfonías</sys:String>
     <sys:String x:Key="Text5">11 oberturas y "Wellingtons Sieg" ["La victoria de Wellington"]</sys:String>

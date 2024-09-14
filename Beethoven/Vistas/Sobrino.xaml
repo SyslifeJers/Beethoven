@@ -1,11 +1,11 @@
-﻿<Page x:Class="Beethoven.Vistas.Testamento"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Beethoven.Vistas"
-        mc:Ignorable="d"
-        Title="Testamento" >
+﻿<Page x:Class="Beethoven.Vistas.Sobrino"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Beethoven.Vistas"
+      Title="Sobrino">
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"></ColumnDefinition>
@@ -35,7 +35,6 @@
         <Grid Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"></ColumnDefinition>
-                <ColumnDefinition Width="1*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
                 <TextBlock Foreground="White" FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
@@ -63,7 +62,7 @@
 
                 </TextBlock>
             </ScrollViewer>
-            <Image Grid.Column="1" Source="pack://application:,,,/Recursos/abb4.jpg" Margin="10" />
+
         </Grid>
     </Grid>
 </Page>

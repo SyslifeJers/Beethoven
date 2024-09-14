@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Beethoven.Vistas"
         mc:Ignorable="d"
-        Title="amigos" Height="450" Width="800">
+        Title="amigos" >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"></ColumnDefinition>
@@ -14,27 +14,297 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"></RowDefinition>
-            <RowDefinition Height="1*" ></RowDefinition>
-            <RowDefinition Height="4*" ></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
         </Grid.RowDefinitions>
 
-
+        <!-- Title -->
         <TextBlock Margin="0,40,0,0" Grid.Column="0" Grid.Row="0" FontSize="24" HorizontalAlignment="Center" Grid.ColumnSpan="3" Text="{DynamicResource Title}" />
-        <StackPanel Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2">
-            <TextBlock  FontStyle="Italic"  FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap" >
-             <Run Text="{DynamicResource Text1}" />
-             <LineBreak/>
-             <Run Text="{DynamicResource Text2}" />
-            </TextBlock>
 
-        </StackPanel>
-        <StackPanel Grid.Column="1" Grid.Row="2" >
-            <TextBlock Foreground="White"  FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
-            <Run Text="{DynamicResource Text3}" />
-             <LineBreak/>
+        <!-- Dynamic text in StackPanel -->
+
+        <!-- Scrollable content in Grid (instead of StackPanel) -->
+        <Grid Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock Foreground="White" FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
+            <!-- Text1 (Impar) -->
+            <Run Text="{DynamicResource Text1}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+
+            <!-- Text2 (Par) -->
+            <Run Text="{DynamicResource Text2}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text3 (Impar) -->
+            <Run Text="{DynamicResource Text3}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text4 (Par) -->
             <Run Text="{DynamicResource Text4}" />
-            </TextBlock>
+            <LineBreak/>
+            <LineBreak/>
 
-        </StackPanel>
-</Grid>
+            <!-- Text5 (Impar) -->
+            <Run Text="{DynamicResource Text5}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text6 (Par) -->
+            <Run Text="{DynamicResource Text6}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text7 (Impar) -->
+            <Run Text="{DynamicResource Text7}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text8 (Par) -->
+            <Run Text="{DynamicResource Text8}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text9 (Impar) -->
+            <Run Text="{DynamicResource Text9}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text10 (Par) -->
+            <Run Text="{DynamicResource Text10}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text11 (Impar) -->
+            <Run Text="{DynamicResource Text11}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+
+            <!-- Text12 (Par) -->
+            <Run Text="{DynamicResource Text12}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text13 (Impar) -->
+            <Run Text="{DynamicResource Text13}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text14 (Par) -->
+            <Run Text="{DynamicResource Text14}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text15 (Impar) -->
+            <Run Text="{DynamicResource Text15}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text16 (Par) -->
+            <Run Text="{DynamicResource Text16}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text17 (Impar) -->
+            <Run Text="{DynamicResource Text17}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text18 (Par) -->
+            <Run Text="{DynamicResource Text18}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text19 (Impar) -->
+            <Run Text="{DynamicResource Text19}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text20 (Par) -->
+            <Run Text="{DynamicResource Text20}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text21 (Impar) -->
+            <Run Text="{DynamicResource Text21}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+
+            <!-- Text22 (Par) -->
+            <Run Text="{DynamicResource Text22}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text23 (Impar) -->
+            <Run Text="{DynamicResource Text23}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text24 (Par) -->
+            <Run Text="{DynamicResource Text24}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text25 (Impar) -->
+            <Run Text="{DynamicResource Text25}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text26 (Par) -->
+            <Run Text="{DynamicResource Text26}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text27 (Impar) -->
+            <Run Text="{DynamicResource Text27}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text28 (Par) -->
+            <Run Text="{DynamicResource Text28}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text29 (Impar) -->
+            <Run Text="{DynamicResource Text29}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text30 (Par) -->
+            <Run Text="{DynamicResource Text30}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text31 (Impar) -->
+            <Run Text="{DynamicResource Text31}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+
+            <!-- Text32 (Par) -->
+            <Run Text="{DynamicResource Text32}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text33 (Impar) -->
+            <Run Text="{DynamicResource Text33}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text34 (Par) -->
+            <Run Text="{DynamicResource Text34}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text35 (Impar) -->
+            <Run Text="{DynamicResource Text35}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text36 (Par) -->
+            <Run Text="{DynamicResource Text36}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text37 (Impar) -->
+            <Run Text="{DynamicResource Text37}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text38 (Par) -->
+            <Run Text="{DynamicResource Text38}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text39 (Impar) -->
+            <Run Text="{DynamicResource Text39}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text40 (Par) -->
+            <Run Text="{DynamicResource Text40}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text41 (Impar) -->
+            <Run Text="{DynamicResource Text41}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+
+            <!-- Text42 (Par) -->
+            <Run Text="{DynamicResource Text42}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text43 (Impar) -->
+            <Run Text="{DynamicResource Text43}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text44 (Par) -->
+            <Run Text="{DynamicResource Text44}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text45 (Impar) -->
+            <Run Text="{DynamicResource Text45}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text46 (Par) -->
+            <Run Text="{DynamicResource Text46}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text47 (Impar) -->
+            <Run Text="{DynamicResource Text47}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text48 (Par) -->
+            <Run Text="{DynamicResource Text48}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text49 (Impar) -->
+            <Run Text="{DynamicResource Text49}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text50 (Par) -->
+            <Run Text="{DynamicResource Text50}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text51 (Impar) -->
+            <Run Text="{DynamicResource Text51}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+
+            <!-- Text52 (Par) -->
+            <Run Text="{DynamicResource Text52}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text53 (Impar) -->
+            <Run Text="{DynamicResource Text53}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text54 (Par) -->
+            <Run Text="{DynamicResource Text54}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text55 (Impar) -->
+            <Run Text="{DynamicResource Text55}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text56 (Par) -->
+            <Run Text="{DynamicResource Text56}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text57 (Impar) -->
+            <Run Text="{DynamicResource Text57}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text58 (Par) -->
+            <Run Text="{DynamicResource Text58}" />
+            <LineBreak/>
+            <LineBreak/>
+
+            <!-- Text59 (Impar) -->
+            <Run Text="{DynamicResource Text59}" Foreground="#FFCA00" FontWeight="Bold" />
+            <LineBreak/>
+            
+            <!-- Text60 (Par) -->
+            <Run Text="{DynamicResource Text60}" />
+            <LineBreak/>
+            <LineBreak/>
+
+                </TextBlock>
+            </ScrollViewer>
+        </Grid>
+
+
+
+    </Grid>
 </Page>

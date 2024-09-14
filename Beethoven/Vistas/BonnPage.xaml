@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Beethoven" xmlns:local1="clr-namespace:Beethoven"
       Title="BonnPage"
-      Width="1000">
+     >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"></ColumnDefinition>
@@ -14,28 +14,58 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"></RowDefinition>
-            <RowDefinition Height="1*" ></RowDefinition>
-            <RowDefinition Height="4*" ></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
         </Grid.RowDefinitions>
 
-
+        <!-- Title -->
         <TextBlock Margin="0,40,0,0" Grid.Column="0" Grid.Row="0" FontSize="24" HorizontalAlignment="Center" Grid.ColumnSpan="3" Text="{DynamicResource Title}" />
+
+        <!-- Dynamic text in StackPanel -->
         <StackPanel Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2">
-            <TextBlock  FontStyle="Italic"  FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap" >
-                <Run Text="{DynamicResource Text1}" />
-                <LineBreak/>
-                <Run Text="{DynamicResource Text2}" />
+            <TextBlock FontStyle="Italic" FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
+               <Run Text="{DynamicResource Text1}" />
+               <LineBreak/>
+               <Run Text="{DynamicResource Text2}" />
             </TextBlock>
-
         </StackPanel>
-        <StackPanel Grid.Column="1" Grid.Row="2" >
-            <TextBlock Foreground="White"  FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
-               <Run Text="{DynamicResource Text3}" />
-                <LineBreak/>
-               <Run Text="{DynamicResource Text4}" />
-            </TextBlock>
 
-        </StackPanel>
-        <Image Grid.Column="2" HorizontalAlignment="Left" Source="pack://application:,,,/Recursos/abb1.jpg"   Margin="30" Grid.Row="2" VerticalAlignment="Top" />
+        <!-- Scrollable content in Grid (instead of StackPanel) -->
+        <Grid Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <TextBlock Foreground="White" FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
+                   <Run Text="{DynamicResource Text3}" />
+                   <LineBreak/>
+                   <Run Text="{DynamicResource Text4}" />
+                   <LineBreak/>
+                   <Run Text="{DynamicResource Text5}" />
+                   <LineBreak/>
+                   <Run Text="{DynamicResource Text6}" />
+                   <LineBreak/>
+                   <Run Text="{DynamicResource Text7}" />
+                   <LineBreak/>
+                   <Run Text="{DynamicResource Text8}" />
+                   <LineBreak/>
+                   <Run Text="{DynamicResource Text9}" />
+                   <LineBreak/>
+                   <Run Text="{DynamicResource Text10}" />
+                   <LineBreak/>
+                   <Run Text="{DynamicResource Text11}" />
+                   <LineBreak/>
+                   <Run Text="{DynamicResource Text12}" />
+                   <LineBreak/>
+                   <Run Text="{DynamicResource Text13}" />
+
+                </TextBlock>
+            </ScrollViewer>
+            <Image Grid.Column="1" Source="pack://application:,,,/Recursos/abb1.jpg" Margin="10" />
+        </Grid>
+
+        <!-- Image with RowSpan to occupy multiple rows -->
+
     </Grid>
 </Page>

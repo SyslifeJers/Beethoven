@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">Beethoven's Nephew</sys:String>
+
+    <sys:String x:Key="Text1">"I am the true natural father of my late brother's son." On November 15, 1815, Beethoven's brother, Kaspar Karl, died of tuberculosis. He left a son, for whom he had granted guardianship in his will to his mother Johanna and his uncle Ludwig. Beethoven began to litigate for sole custody, probably to achieve something like a father-son relationship or even a family of his own. He became increasingly obsessed with the role of father. When, in January 1816, the court ruled in Beethoven's favor, he wrote to Johann Nepomuk Kanka, in Prague:
+    </sys:String>
+    <sys:String x:Key="Text2">
+        "I am the true natural father of my late brother's son."
+    </sys:String>
+    <sys:String x:Key="Text3">Beethoven wanted to be a loving father to Karl, which did not prevent him from denigrating his mother and accusing her of murdering her husband. Fortunately, recent literature on Beethoven questions theories of homosexuality and Oedipal forces. It is possible that he wanted to bond with someone to escape his loneliness, which was increasingly exacerbated by his deafness. In a letter to Karl von Bursy, Beethoven wrote:
+    </sys:String>
+    <sys:String x:Key="Text4">
+        "The boy must become an artist or a scholar to live a higher life and to avoid falling completely into vulgarity. Only the free artist and scholar carry happiness within themselves."
+    </sys:String>
+
+    <sys:String x:Key="Text5">The mother did not relent in her attempt to regain her son, although her first petition to the court was rejected. Karl ran away with his mother, but the police returned him to his educational institute. Initially, Johanna managed to regain custody of her son, but Beethoven successfully appealed to the court. In July 1820, the court ruled in Beethoven's favor, granting him full guardianship.
+    </sys:String>
+    <sys:String x:Key="Text6">
+        Karl attended school and the Polytechnic School and seemed to have adjusted to his complicated and tyrannical uncle, until on July 30, 1826, he attempted to take his own life. When the nephew was asked about the incident, Beethoven was told:
+    </sys:String>
+    <sys:String x:Key="Text7">
+        "He cites no other reason than the imprisonment he feels living with you."
+    </sys:String>
+
+</ResourceDictionary>

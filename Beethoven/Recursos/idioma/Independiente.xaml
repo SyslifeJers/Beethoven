@@ -1,0 +1,39 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="Title">Músico independiente</sys:String>
+
+    <sys:String x:Key="Text1">"¿De quién es la obra?" – "De Beethoven." – "Ah, no tratéis con quien no ha aprendido absolutamente nada y jamás hará nada decente".
+[Albrechtsberger a Dolezalek; citado en Landon, H.C. Robbins, *Beethoven*, Zúrich 1974, p.41] 
+Beethoven llegó a Viena presuntamente el 10 de noviembre de 1792. Tampoco aquí le fue fácil dedicarse a sus estudios. Los otros compositores de Viena no estaban mucho por él, y "papá" Haydn no se ocupaba mucho de su alumno, ya que estaba muy ocupado y solicitado en todas partes. A espaldas de Haydn, Beethoven tomó clases con Johann Schenk (compositor de *Der Dorfbarbier* [*El barbero del pueblo*]) y acudía a Haydn con los trabajos ya corregidos. Cuando Haydn viajó a Londres por segunda vez (1794), Beethoven aprendió contrapunto con Albrechtsberger y composición de canciones con Salieri.
+    </sys:String>
+
+    <sys:String x:Key="Text2">Las cartas de recomendación del conde de Waldstein proporcionaron a Beethoven acceso a los círculos aristocráticos de Viena. Se ganó la fama de excelente pianista y tocó por primera vez para un gran público el 29 de marzo de 1795, en el Burgtheater. El 19 de mayo del mismo año, firmó un contrato con la editorial Artaria. Se publicaron tres tríos para piano, y desde este momento, Beethoven empezó a numerar sus obras. Dedicó las tres sonatas para piano Op. 2 a Joseph Haydn y estas se tocaron en su presencia por primera vez en uno de los populares conciertos de los viernes por la mañana en casa del príncipe Karl Lichnowsky.
+    </sys:String>
+
+    <sys:String x:Key="Text3">En 1794, se disolvió el Electorado de Colonia con motivo de la invasión francesa y, por ello, Beethoven no recibió más ingresos de la capilla de la Corte. Beethoven vivía ahora como "artista independiente": se sustentaba a base de clases y de los honorarios que recibía por sus composiciones. Hasta 1794, Beethoven había publicado poco, a excepción de algunas obras impresas en la época de Bonn, y se presentaba como pianista y compositor solo en los salones vieneses. Estos patrocinadores y mecenas se portaban de manera excepcional con él; debían de haberse dado cuenta de su especial genialidad. Beethoven vivió en casa del príncipe Lichnowsky como mínimo dos años y, en 1809, residió en casa del conde Erdödy, a cuya esposa dedicó el Trío para piano Op. 97 y las Sonatas para violonchelo Op. 102. Le unía una profunda amistad con el conde Franz von Brunsvik, cuya hermana Therese (1775–1861) fue discípula de Beethoven ya en 1800. En 1811–1812, Beethoven albergó un gran afecto por ella. Debido a la diferencia de clase social, Beethoven no consideró seriamente una boda, sino que más bien quería casarse con Therese Malfatti, quien rechazó su propuesta.
+    </sys:String>
+
+    <sys:String x:Key="Text4">Las obras de Beethoven estaban bien pagadas y, además, recibía un salario anual por parte del príncipe Lichnowsky de 600 florines desde el 1800. Cuando, en 1808, Jerónimo Bonaparte quiso contratar a Beethoven en Kassel, el archiduque Rodolfo, el príncipe Lobkowitz y el príncipe Kinsky se unieron y le pagaron 4,000 florines al año para que se quedara en Viena. Después de la devaluación de 1811, este salario ya no tenía tanto valor como antes, pero seguía siendo una pensión considerable.
+    </sys:String>
+
+    <sys:String x:Key="Text5">A pesar de (o precisamente debido a) sus relaciones íntimas con los círculos aristocráticos, Beethoven fue siempre demócrata y republicano. Quería dedicar su *Heroica* (3.ª sinfonía) a Napoleón, ya que veía en él a un auténtico héroe de la libertad, pero cuando Napoleón se proclamó emperador, retiró la dedicatoria.
+    </sys:String>
+
+    <sys:String x:Key="Text6">El traslado definitivo de Beethoven a Viena fue el hito más decisivo de su vida. Si hubiera tenido un puesto fijo en Bonn, un círculo de amigos y un profesor apreciado... pero no sabía lo que le deparaba el futuro en Viena. En Viena, estaba separado de su ambiente familiar, no tenía un puesto fijo y se vio frente a una situación política que no coqueteaba con la ideología liberal de la Revolución francesa, sino que intentaba combatir y reprimir estas corrientes antigubernamentales.
+    </sys:String>
+
+    <sys:String x:Key="Text7">Pero Beethoven quería impulsar sus estudios musicales y perfeccionar su genio. Estudió con los mejores profesores de Viena, Haydn, Salieri y Albrechtsberger, y se ocupó de que su fama como virtuoso del piano creciera.
+    </sys:String>
+
+    <sys:String x:Key="Text8">Cuando Beethoven llegó a Viena, vivió primero en casa del príncipe Lichnowsky. Su personalidad impetuosa, su conducta tosca, junto con su genial musicalidad y su sorprendente habilidad como pianista, pudieron haber cautivado a los círculos nobles de Viena. Su espíritu de contradicción, su grosería y su tosquedad tenían mucha relación con la penosa situación que surgió de la separación del hogar, con la soledad y el desarraigo.
+    </sys:String>
+
+    <sys:String x:Key="Text9">"Era pequeño e insignificante, con una fea cara roja marcada por la viruela. Su cabello era muy oscuro y le caía enmarañado en la cara. Su traje era muy corriente y no muy diferente de los que se llevaban aquellos días, especialmente en nuestros círculos. Además, hablaba mucho en dialecto y en su manera simple de expresarse y su comportamiento no denotaba ningún tipo de educación, sino que era más bien maleducado en toda su conducta y comportamiento. Era muy orgulloso; yo vi cómo la madre del príncipe Lichnowsky, la condesa Thun, se arrodillaba frente a él, reclinado en el sofá, para pedirle que tuviera a bien tocar algo. Pero Beethoven no lo hizo".
+[Esposa de von Bernhard. Kerst, op. cit. I. P.24]
+    </sys:String>
+
+    <sys:String x:Key="Text10">Beethoven tenía también un carácter terco y no le gustaba para nada que lo trataran como el "letrero" de la aristocracia. Desarrolló una repugnancia absoluta frente a las actuaciones en fiestas y no toleraba ningún tipo de crítica. Sin embargo, sus amigos nobles aceptaban con paciencia estas manías.
+    </sys:String>
+
+</ResourceDictionary>

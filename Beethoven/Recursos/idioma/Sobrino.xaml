@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    
+    <sys:String x:Key="Title">el sobrino de Beethoven</sys:String>
+
+    <sys:String x:Key="Text1">"Soy el verdadero padre carnal del hijo de mi difunto hermano". El 15 de noviembre de 1815, el hermano de Beethoven, Kaspar Karl, falleció de tuberculosis. Dejó a un hijo, del que otorgó la tutela en su testamento a su madre Johanna y a su tío Ludwig. Beethoven empezó a litigar para obtener la tutela única, probablemente para conseguir algo parecido a una relación padre-hijo o incluso una familia propia. Se obsesionaba cada vez más con el papel de padre. Cuando, en enero de 1816, el tribunal falló a favor de Beethoven, este escribió a Johann Nepomuk Kanka, en Praga:
+    </sys:String>
+    <sys:String x:Key="Text2">
+        "Soy el verdadero padre carnal del hijo de mi difunto hermano".
+    </sys:String>
+    <sys:String x:Key="Text3">Beethoven quería ser un padre cariñoso para Karl, lo que no le impidió denigrar a su madre y acusarla de asesinar a su marido. La nueva literatura sobre Beethoven, por suerte, cuestiona las teorías sobre homosexualidad y fuerzas edípicas. Es posible que quisiera vincularse a una persona para escapar de su soledad, que aumentaba cada vez más por culpa de su sordera. En una carta dirigida a Karl von Bursy, Beethoven escribió:
+
+    </sys:String>
+    <sys:String x:Key="Text4">
+    "El chico tiene que ser artista o sabio para vivir una vida más elevada y para que no caiga por completo en la vulgaridad. Solo el artista y el sabio libre llevan la felicidad dentro de sí".
+    </sys:String>
+
+    <sys:String x:Key="Text5">La madre no cejó en su intento de recuperar a su hijo, aunque la primera petición al tribunal fue rechazada. Karl huyó con su madre, pero la policía lo llevó de nuevo a su instituto de educación. Al principio, Johanna consiguió recuperar la custodia de su hijo, pero Beethoven se dirigió al tribunal de apelación, con éxito. En julio de 1820, el tribunal falló en favor de Beethoven, otorgándole la tutela definitiva.
+    </sys:String>
+    <sys:String x:Key="Text6">
+        Karl acudió a la escuela y a la escuela politécnica y pareció haberse acostumbrado a su complicado y tiránico tío, hasta que el 30 de julio de 1826 intentó quitarse la vida. Cuando se preguntó al sobrino sobre los hechos, se le dijo a Beethoven:
+    </sys:String>
+    <sys:String x:Key="Text7">
+"No alega ninguna otra causa que la prisión en la que vive con vos".
+    </sys:String>
+
+</ResourceDictionary>

@@ -7,21 +7,24 @@
     <sys:String x:Key="Text1">„Amar por encima de todo la libertad y no traicionar jamás a la verdad (aun cuando fuera por un trono)“.Beethoven siguió las pasos de su padre y su abuelo y se convirtió en músico miembro de la capilla de la Corte de Bonn. Era organista, clavecinista y tocaba la viola, al principio como substituto de su profesor Neefe, aunque pronto "por propio interés".
     </sys:String>
 
-    <sys:String x:Key="Text2">La capilla de la Corte de Bonn se ocupaba de la música vocal e instrumental en iglesias, conciertos y teatros. En el marco de la música eclesiástica, el joven Beethoven conoció las obras de Caldara, Pergolesi, Holzbauer y Haydn; en los conciertos, las escuelas de Mannheim, París y la primera Escuela de Viena; y, en el teatro, entró en contacto con la Opera Buffa, la Opéra Comique y el Singspiel alemán. A esto se añadió el contacto con la intensa vida musical privada de Bonn, en la que las veladas musicales del consejero áulico von Mastiaux eran especialmente importantes. La casa de la familia Breuning se convirtió para él en una segunda casa.
-
+    <!-- Corrigiendo duplicado: Cambié la clave de Text2 a Text2_1 para evitar conflictos -->
+    <sys:String x:Key="Text2">Beethoven siguió las pasos de su padre y su abuelo y se convirtió en músico miembro de la capilla de la Corte de Bonn. Era organista, clavecinista y tocaba la viola, al principio como substituto de su profesor Neefe, aunque pronto "por propio interés".
     </sys:String>
+    <sys:String x:Key="Text2_1">La capilla de la Corte de Bonn se ocupaba de la música vocal e instrumental en iglesias, conciertos y teatros. En el marco de la música eclesiástica, el joven Beethoven conoció las obras de Caldara, Pergolesi, Holzbauer y Haydn; en los conciertos, las escuelas de Mannheim, París y la primera Escuela de Viena; y, en el teatro, entró en contacto con la Opera Buffa, la Opéra Comique y el Singspiel alemán. A esto se añadió el contacto con la intensa vida musical privada de Bonn, en la que las veladas musicales del consejero áulico von Mastiaux eran especialmente importantes. La casa de la familia Breuning se convirtió para él en una segunda casa.
+    </sys:String>
+
     <sys:String x:Key="Text3">Seguramente gracias a la intervención de Neefe, Beethoven obtuvo vacaciones a principios de 1787 para ir a Viena a ver a Mozart y estudiar allí. Viajó a través de Múnich y llegó a Viena el 7 de abril. Los informes sobre el contacto con Mozart y, posiblemente, clases con él, son variados. Sin embargo, es de suponer que los dos artistas se conocieron.
-
     </sys:String>
+
     <sys:String x:Key="Text4">La primera estancia de Beethoven en Viena duró solo 14 días. Debido a la grave enfermedad de su madre, se vio obligado a volver a Bonn. En una carta al señor von Schaden, domiciliado en Ausburg, escribió: "He visto a mi madre, pero en el estado de salud más deplorable. Tenía tuberculosis y falleció finalmente hará unas siete semanas [17 de julio de 1787], tras soportar mucho dolor y sufrimiento. Para mí era una madre buena y gentil, mi mejor amiga“.
-
     </sys:String>
+
     <sys:String x:Key="Text5">En esta época llegó el conde Ferdinand von Waldstein a la Corte electoral de Bonn, un melómano muy culto que se encargó de Beethoven y que influyó enormemente en su desarrollo artístico. Sus recomendaciones abrieron a Beethoven las puertas a los círculos más altos de Viena.
-
     </sys:String>
+
     <sys:String x:Key="Text6">Debido a que el padre de Beethoven, tras numerosos golpes del destino, se daba cada vez más a la bebida, la responsabilidad de la familia recayó en Ludwig. El padre fue despedido de la capilla de la Corte en 1789 y Beethoven recibió en adelante la mitad del salario de su padre, además del suyo por educar a su joven hermano. Tras la muerte de su padre en 1792, los hermanos Kaspar Karl y Nikolaus Johann se mudaron a Viena, uno después del otro. Karl trabajó como funcionario de la administración del Estado, mientras que Johann fue farmacéutico en Viena y, más tarde, en Linz.
-
     </sys:String>
+
     <sys:String x:Key="Text7">La actividad compositora de Beethoven se había reducido en estos últimos años en Bonn, seguramente porque quería intentar mejorar su educación. El 14 de mayo de 1789 se matriculó en la Universidad de Bonn. Pronto se vio a sí mismo no solo como músico, sino como pensador y filósofo, como contemporáneo crítico con intereses políticos.
 El 25 de diciembre de 1790 conoció a Haydn en Bonn y le pudo mostrar las dos cantatas que escribió allí.
     </sys:String>
@@ -41,15 +44,15 @@ Wegeler escribió en 1838:
     </sys:String>
 
     <sys:String x:Key="Text12">Breuning escribió sobre la primera estancia de Beethoven en Viena, durante la cual debía estudiar con Mozart:
-
     </sys:String>
+
     <sys:String x:Key="Text13">„... Beethoven llegó a Viena en el invierno de 1786 a 1787 y encontró en seguida brazos abiertos por todas partes, especialmente el recibimiento más cortés por parte de las familias aristocráticas amantes del arte de aquella época en Viena. Wegeler también llegó pronto, en 1787, y, dotado de excelentes recomendaciones y el apoyo del príncipe elector, se abrieron ante sí, como ante Beethoven, los círculos de los famosos profesores y médicos josefinistas: Brambilla, Gerhard von Vering, Gottfried van Swieten, Hunczovsky, Adam Schmidt, Wilhelm Schmitt y muchos más..“.
 Breuning, ob. cit. P. 30]
     </sys:String>
 
     <sys:String x:Key="Text14">Se celebró el encuentro con Mozart y también recibió (unas pocas) clases con él
-
     </sys:String>
+
     <sys:String x:Key="Text15">"[Beethoven] fue enviado a Mozart de chico y este le ordenó que improvisara algo. 'Es muy bonito', dijo Mozart 'pero está preparado'. Ofendido, Beethoven le pidió que dijera un tema e improvisó, de tal manera que Mozart dijo a unos amigos: 'Prestadle atención, algún día tendrá algo que enseñar'".
 Kerst, Friedrich. "Die Erinnerungen an Beethoven" ("Los recuerdos de Beethoven"). Stuttgart: 1913. II. P.185]
     </sys:String>
