@@ -1,0 +1,152 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Recursos\abb1.jpg" />
+    <None Remove="Recursos\audio\Spanisch\header1.mp3" />
+    <None Remove="Recursos\audio\Spanisch\Zeile 1.mp3" />
+    <None Remove="Recursos\audio\Spanisch\Zeile 2.mp3" />
+    <None Remove="Recursos\audio\Spanisch\Zeile 3.mp3" />
+    <None Remove="Recursos\audio\Spanisch\Zeile 4.mp3" />
+    <None Remove="Recursos\audio\Spanisch\Zeile 5 6.mp3" />
+    <None Remove="Recursos\audio\freiheit.mp3" />
+    <None Remove="Recursos\audio\freiheit_en.MP3" />
+    <None Remove="Recursos\audio\freyheit.mp3" />
+    <None Remove="Recursos\audio\freyheit_en.MP3" />
+    <None Remove="Recursos\audio\gewalt.mp3" />
+    <None Remove="Recursos\audio\gewalt_en.MP3" />
+    <None Remove="Recursos\audio\kindheit.mp3" />
+    <None Remove="Recursos\audio\kindheit_en.MP3" />
+    <None Remove="Recursos\audio\leiblich.mp3" />
+    <None Remove="Recursos\audio\leiblich_en.MP3" />
+    <None Remove="Recursos\audio\letztejahre.mp3" />
+    <None Remove="Recursos\audio\letztejahre_en.MP3" />
+    <None Remove="Recursos\audio\schicksal.mp3" />
+    <None Remove="Recursos\audio\schicksal_en.MP3" />
+    <None Remove="Recursos\audio\schweine.mp3" />
+    <None Remove="Recursos\audio\schweine_en.MP3" />
+    <None Remove="Recursos\audio\viertesjahr.mp3" />
+    <None Remove="Recursos\audio\viertesjahr_en.MP3" />
+    <None Remove="Recursos\audio\vonwem.mp3" />
+    <None Remove="Recursos\audio\vonwem_en.MP3" />
+    <None Remove="Recursos\audio\zusammengerafft.mp3" />
+    <None Remove="Recursos\audio\zusammengerafft_en.MP3" />
+    <None Remove="Recursos\fon2.jpg" />
+    <None Remove="Recursos\idioma.png" />
+    <None Remove="Recursos\menu.mp3" />
+    <None Remove="Recursos\saver.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Recursos\abb1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\fon2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\idioma.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Recursos\menu.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Recursos\audio\Spanisch\header1.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\Spanisch\Zeile 1.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\Spanisch\Zeile 2.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\Spanisch\Zeile 3.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\Spanisch\Zeile 4.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\Spanisch\Zeile 5 6.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\freiheit.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\freiheit_en.MP3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\freyheit.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\freyheit_en.MP3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\gewalt.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\gewalt_en.MP3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\kindheit.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\kindheit_en.MP3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\leiblich.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\leiblich_en.MP3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\letztejahre.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\letztejahre_en.MP3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\schicksal.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\schicksal_en.MP3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\schweine.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\schweine_en.MP3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\viertesjahr.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\viertesjahr_en.MP3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\vonwem.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\vonwem_en.MP3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\zusammengerafft.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\audio\zusammengerafft_en.MP3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Recursos\saver.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

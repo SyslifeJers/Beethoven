@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="Tit1">Bonn</sys:String>
+    <sys:String x:Key="Tit2">Paternal Home and Childhood</sys:String>
+    <sys:String x:Key="Tit3">Lessons with Neefe</sys:String>
+    <sys:String x:Key="Tit4">Musician in Bonn</sys:String>
+    <sys:String x:Key="Tit5">Vienna</sys:String>
+    <sys:String x:Key="Tit6">Independent Musician</sys:String>
+    <sys:String x:Key="Tit7">Heiligenstadt Testament</sys:String>
+    <sys:String x:Key="Tit8">Heroic – Fidelio</sys:String>
+    <sys:String x:Key="Tit9">Peak</sys:String>
+    <sys:String x:Key="Tit10">Last Years</sys:String>
+    <sys:String x:Key="Tit11">Contemporaries</sys:String>
+    <sys:String x:Key="Tit12">Beethoven's Nephew</sys:String>
+    <sys:String x:Key="Tit13">Circle of Friends</sys:String>
+    <sys:String x:Key="Tit14">Beethoven and Goethe</sys:String>
+    <sys:String x:Key="Tit15">Particularities</sys:String>
+    <sys:String x:Key="Tit16">Conversation Books</sys:String>
+    <sys:String x:Key="Tit17">At Beethoven's Home</sys:String>
+    <sys:String x:Key="Tit18">Works</sys:String>
+    <sys:String x:Key="Tit19">Literature</sys:String>
+    <sys:String x:Key="Tit20">Image Sources</sys:String>
+</ResourceDictionary>

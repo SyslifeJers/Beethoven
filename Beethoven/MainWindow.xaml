@@ -1,0 +1,62 @@
+﻿<Window x:Class="Beethoven.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Beethoven"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="1200">
+    <Window.Background>
+        <ImageBrush ImageSource="Recursos/saver.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="350" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1">
+            <Button Margin="0,30,0,0" Height="80" Width="80" Click="ChangeLanguage_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Recursos/idioma.png" />
+                </Button.Background>
+            </Button>
+            <TreeView Margin="0,30,0,0" Background="Transparent" x:Name="MyTreeView">
+                <TreeViewItem x:Name="BonnItem" Header="{DynamicResource Tit1}">
+                    <TreeViewItem x:Name="FamilyChildhoodItem" Header="{DynamicResource Tit2}" Tag="BonnPage" />
+                    <TreeViewItem x:Name="TuitionNeefeItem" Header="{DynamicResource Tit3}" Tag="TuitionNeefePage" />
+                    <TreeViewItem x:Name="MusicianBonnItem" Header="{DynamicResource Tit4}" Tag="MusicianBonnPage" />
+                </TreeViewItem>
+            </TreeView>
+            <TreeView Background="Transparent">
+                <TreeViewItem Header="Viena">
+                    <TreeViewItem x:Name="IndependentMusicianItem" Header="Músico independiente" Tag="IndependentMusicianPage" />
+                    <TreeViewItem x:Name="HeiligenstadtTestamentItem" Header="Testamento de Heiligenstadt" Tag="HeiligenstadtTestamentPage" />
+                    <TreeViewItem x:Name="HeroicFidelioItem" Header="Heroica – Fidelio" Tag="HeroicFidelioPage" />
+                    <TreeViewItem x:Name="ApogeoItem" Header="Apogeo" Tag="ApogeoPage" />
+                    <TreeViewItem x:Name="LastYearsItem" Header="Últimos años" Tag="LastYearsPage" />
+                </TreeViewItem>
+            </TreeView>
+            <ListBox x:Name="MenuListBox" Background="Transparent"  SelectionChanged="MenuListBox_SelectionChanged"   Margin="10">
+                <!-- Submenú de Bonn -->
+                <!-- Otras opciones del menú principal -->
+
+                <ListBoxItem Content="Contemporáneos" Tag="ContemporaneosPage" />
+                <ListBoxItem Content="Particularidades" Tag="ParticularidadesPage" />
+                <ListBoxItem Content="Obras" Tag="ObrasPage" />
+                <ListBoxItem Content="Literatura" Tag="LiteraturaPage" />
+                <ListBoxItem Content="Fuente de las imágenes" Tag="FuenteImagenesPage" />
+                <ListBoxItem Content="English" Tag="EnglishPage" />
+            </ListBox>
+        </StackPanel>
+        <!-- Menú lateral -->
+
+
+
+        <!-- Área de contenido -->
+        <Frame x:Name="ContentFrame" Grid.Column="0" NavigationUIVisibility="Hidden" />
+
+    </Grid>
+</Window>

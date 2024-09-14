@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="Title">Family and childhood</sys:String>
+    <sys:String x:Key="Text1">“Never from my earliest childhood, could my desire to serve poor, suffering humanity with my art be satisfied with anything else.”.</sys:String>
+    <sys:String x:Key="Text2">[Letter from Beethovens to Joseph von Varena, Dez. 1811]</sys:String>
+    <sys:String x:Key="Text3">Beethoven learned at an early age that the practice of music is preceded by much effort, sacrifices, blows and excitement.</sys:String>
+    <sys:String x:Key="Text4">Ludwig van Beethoven was born in Bonn in December 1770. He came from a family of musicians who on his father's side came from the Netherlands and on his mother's side from the Rhineland. His parent's marriage was unhappy and alcohol plunged the family into misery. Of Beethoven's six brothers and sisters only two brothers reached adulthood. Beethoven was three years old when his grandfather, the head of the family died, seventeen when his mother died and twenty-two when his father died.
+In 1774 the family moved from the Bonngasse to the market and then two years later moved to a house belonging to the master baker Fischer in the Rheingasse, where his grandfather had last resided. The flat was dark (his mother is said never to have laughed there), but it was close to the river which Ludwig loved very much.</sys:String>
+</ResourceDictionary>
