@@ -1,0 +1,32 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">height of his career</sys:String>
+    <sys:String x:Key="Text1">„Freedom and progress, are the purpose in the world of art, just as in creation.“
+    </sys:String>
+    <sys:String x:Key="Text2">With his “Mass in C” Beethoven composed a piece of church music even before the “Missa solemnis” that, like so many of his works, pointed in a new direction. The work was commissioned by Prince Nikolaus Esterházy and it was first performed on the name day of his wife on 13 September 1807 in the chapel at the palace in Eisenstadt. The unusual style was not well received and Prince Esterházy is supposed to have said:
+    </sys:String>
+    <sys:String x:Key="Text3">„My dear Beethoven, what have you done here“
+    </sys:String>
+    <sys:String x:Key="Text4">On 8 June 1808 Beethoven wrote to Breitkopf y Härtel:
+    </sys:String>
+    <sys:String x:Key="Text5">"„I do not like to speak of my Mass or myself, however, I do believe that I treated the text as few have done before me“
+    </sys:String>
+    <sys:String x:Key="Text6">At the end of October 1808 the King of Westphalia, Jerome Bonaparte, offered Beethoven a post at his court in Kassel. To prevent this, his aristocratic patrons in Vienna, Archduke Rudolph, Prince Lobkowitz and Prince Kinsky, offered him a contract with an annual salary of 4000 fl. which was signed on 1 March 1809. Beethoven firmly expected to be appointed imperial kapellmeister.
+    </sys:String>
+    <sys:String x:Key="Text7">At the end of October 1808 the King of Westphalia, Jerome Bonaparte, offered Beethoven a post at his court in Kassel. To prevent this, his aristocratic patrons in Vienna, Archduke Rudolph, Prince Lobkowitz and Prince Kinsky, offered him a contract with an annual salary of 4000 fl. which was signed on 1 March 1809. Beethoven firmly expected to be appointed imperial kapellmeister.
+    </sys:String>
+    <sys:String x:Key="Text8">The devaluation of the currency as a result of the “Finanzpatent” in 1811 significantly reduced Beethoven's income.
+    </sys:String>
+    <sys:String x:Key="Text9">The first performance of the 7 Symphony and the battle symphony “Wellingtons Sieg oder die Schlacht bei Vittoria” on 8 December 1813 in the University Hall was the first in a series of glittering concerts that brought the composer to the height of his fame and popularity with the Viennese population. The orchestra included the most important musicians in Vienna (Hummel, Mayseder, Moscheles and Salieri). After the first performance Beethoven had the following printed in the “Intelligenzblatt der vienaer Zeitung”:
+    </sys:String>
+    <sys:String x:Key="Text10">„I only conducted the whole thing because the music was my composition; if it had been somebody elses work, I would have been just as happy to stand behind the great drum like Herr Hummel.“
+    </sys:String>
+    <sys:String x:Key="Text11">Together with the poet Friedrich Treitschke, Beethoven, who had reached the height of his fame undertook a revision of “Fidelio”. On 23 May 1814 the opera was performed once more in the Kärntnertortheater, and with a few small changes the final version, was played three days later (with the overture that is played today). This time it was a success.
+    </sys:String>
+    <sys:String x:Key="Text12">The highlight was the academy on 29 November 1814 in the Große Redoutensaal. The Empresses of Austria and Russia, the King of Prussia and almost all participants at the Congress of Vienna were present. Beethoven gave his final public performance at a concert in the Hofburg in honour of the birthday of the Russian Empress on 25 January 1815.
+    </sys:String>
+    
+
+</ResourceDictionary>

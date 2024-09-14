@@ -7,4 +7,35 @@
     <sys:String x:Key="Text3">Beethoven learned at an early age that the practice of music is preceded by much effort, sacrifices, blows and excitement.</sys:String>
     <sys:String x:Key="Text4">Ludwig van Beethoven was born in Bonn in December 1770. He came from a family of musicians who on his father's side came from the Netherlands and on his mother's side from the Rhineland. His parent's marriage was unhappy and alcohol plunged the family into misery. Of Beethoven's six brothers and sisters only two brothers reached adulthood. Beethoven was three years old when his grandfather, the head of the family died, seventeen when his mother died and twenty-two when his father died.
 In 1774 the family moved from the Bonngasse to the market and then two years later moved to a house belonging to the master baker Fischer in the Rheingasse, where his grandfather had last resided. The flat was dark (his mother is said never to have laughed there), but it was close to the river which Ludwig loved very much.</sys:String>
+
+
+    <sys:String x:Key="Text5">Beethoven did not receive regular schooling as his father regarded school as nothing more than a necessary evil. Throughout his life Ludwig was bad at mathematics and his letters are full of grammatical and spelling mistakes, a weakness which he later tried to compensate for.
+    </sys:String>
+    <sys:String x:Key="Text6">Beethoven received his first musical instruction from his father. At the age of five he began to play the piano. His father was impatient and harsh. He wanted to mould his son into a second “wunderkind” like Mozart and supplement his income with the child's performances. He also received violin instruction and was supposed to practice several hours a day. Even in these early years Beethoven sometimes played music that just entered his head, but his father admonished him to practice something “decent”.
+    </sys:String>
+    <sys:String x:Key="Tex7">He also took lessons from elderly organists and the violinist Rovantini, a cousin of his mother.
+    </sys:String>
+    <sys:String x:Key="Tex8">In 1778 Ludwig gave his first public recital at a musical academy in the nearby city of Cologne. In 1781 he and his mother travelled to Rotterdam for a further public performance but with only moderate success.
+    </sys:String>
+    <sys:String x:Key="Tex9">In spite of the lack of methodical tuition, the musical abilities of the ten-year old Beethoven must already have been highly developed because he attracted the attention of the Vice-Court Organist, Neefe, whose pupil he became.
+    </sys:String>
+    <sys:String x:Key="Tex10">Beethoven was born in Bonn on 16 December 1770 and was christened the next day. His father's family originally came from the Netherlands, while his mother's family was from the Rhineland. Beethoven's grandfather Louis (1712-1773) was a singer in Liége, then a musician at the court of the Elector before becoming kapellmeister at the Court in Bonn in 1761. He was also involved in the wine trade. His wife became an alcoholic
+    </sys:String>
+    <sys:String x:Key="Tex11">His son, Beethoven's father, was called Johann (1740-1792) and was a tenor in the royal orchestra in Bonn. He married Maria Magdalena Keverich, the young widow of a groom of the chamber at the electoral court, a marriage the grandfather is said to have disapproved of as he considered that his son had married “beneath him“. After the death of his wife in 1787 he also turned to drink and was finally placed under the custody of a guardian. Responsibility for the family passed to the eldest son Ludwig.
+    </sys:String>
+    <sys:String x:Key="Tex12">Due to his dark complexion Beethoven was called “Spagnol”(Spaniard). He played with the baker's children in the courtyard and loved going to the Rhine and often sat at the window gazing into the distance lost in his thoughts. He was “short of stature, with wide shoulders, a short neck, a fat head, round nose, a brown-black complexion and leaned forward slightly when he walked.” "short of stature, with wide shoulders, a short neck, a fat head, round nose, a brown-black complexion and leaned forward slightly when he walked.“
+    </sys:String>
+    <sys:String x:Key="Tex13">[Aufzeichnungen des Bäckermeisters Fischer über Beethovens Jugend, hrsg. von Joseph Schmidt-Görg, München und Duisburg 1971, S. 52]
+    </sys:String>
+    <sys:String x:Key="Tex14">Beethoven received music lessons from his father at an early age. School was largely neglected and Beethoven always remained particularly bad at mathematics. A few months before Beethoven's death his nephew Karl attempted to teach his uncle multiplication by giving him instructions in the conversation notebook:
+    </sys:String>
+    <sys:String x:Key="Tex15">„Multiplication is only a simplified form of addition. The calculation is done using the same method. One writes each part under its place, if it consists of two figures, the left is added to the part of the next place“
+[cuadernos de conversaciones Bd.10, S.297]
+    </sys:String>
+    <sys:String x:Key="Tex16">In addition to his father, Beethoven's first teachers included the court organist Gilles van den Eeden (died 1782), the tenor singer Tobias Friedrich Pfeiffer (who was only in Bonn from 1779-80), the violinist Georg Rovantini (died 1781), whereby the latter two lived in Beethoven's house. In 1780 he was given organ lessons by the organists and Franciscan monks Willibald Koch und Zensen.
+    </sys:String>
+    <sys:String x:Key="Tex17">When Christian Gottlob Neefe was appointed Vice Court Organist on 15 February 1781, ten year old Beethoven's musical abilities were already very advanced because as early as the middle of 1782 he was allowed to stand in for Neefe. It can be assumed that Beethoven was already able to direct attention to his musical gifts at this stage even if his first performances on 26 March 1778 in Cologne and 1781 in Rotterdam (as a pianist) were not successful.
+    </sys:String>
+
+
 </ResourceDictionary>

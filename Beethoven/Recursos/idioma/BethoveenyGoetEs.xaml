@@ -1,0 +1,22 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">beethoven y goethe</sys:String>
+    <sys:String x:Key="Text1">  "No he visto nunca a un artista más poderosamente concentrado, más enérgico, más sensible. Comprendo muy bien que su actitud sea extraordinaria a los ojos del mundo".
+    </sys:String>
+  <sys:String x:Key="Text2">  Bettina von Brentano había organizado este encuentro entre Goethe y Beethoven en julio de 1812. Goethe se sobresaltó no solo por la música de Beethoven, sino también por su carácter grosero. En una carta a Karl Friedrich Zelter del 2 de septiembre de 1812, Goethe escribió:
+    </sys:String>
+   <sys:String x:Key="Text3"> "Conocí a Beethoven en Teplitz. Su talento me impresionó; desgraciadamente, se trata de una personalidad indomada que, aunque no se equivoca al decir que el mundo es detestable, no se esfuerza lo más mínimo por hacerlo más agradable, ya sea para sí o para los demás. Su actitud es, por otra parte, muy comprensible e incluso digna de compasión, ya está perdiendo el sentido del oído, y esto quizá esté dañando menos el lado musical de su ser que el social. Su carácter lacónico se verá duplicado a causa de su deficiencia".
+    </sys:String>
+    <sys:String x:Key="Text4"> Beethoven, por su parte, se sentía aparentemente decepcionado por Goethe cuando, en una carta a Breitkopf y Härtel del 9 de agosto de 1812, escribió:
+    </sys:String>
+    <sys:String x:Key="Text5">A Goethe le gusta demasiado el ambiente de la Corte, más de lo que puede convenir a un poeta. No hay mucho más que decir aquí de los ridículos virtuosos cuando los poetas, que deberían ser los primeros educadores de la nación, pueden olvidarlo todo por esta quimera."
+        </sys:String>
+        <sys:String x:Key="Text6">El 8 de febrero de 1823, Beethoven, completamente sordo, enfermo y solitario, escribió a Goethe para rogarle que le consiguiera un concierto de prelanzamiento para su "Missa solemnis" con el duque de Sajonia-Weimar.
+        </sys:String>
+        <sys:String x:Key="Text7">"Sé que no negaréis a un artista que ha visto siempre cómo el verdadero beneficio se aleja de él [del arte] vuestra intercesión cuando la necesidad le acucia, y así colaborar unos con otros. El bien está claro para nosotros en todo momento y también sé que Vuestra Excelencia no rechazará mi ruego. Unas palabras vuestras me llenarían de felicidad. Con la más profunda y la más ilimitada consideración, vuestro admirador, Beethoven."
+Goethe no contestó a esta carta.
+        </sys:String>
+        
+</ResourceDictionary>

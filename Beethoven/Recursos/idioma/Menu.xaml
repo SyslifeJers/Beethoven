@@ -2,24 +2,24 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                                         xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Tit1">bonn</sys:String>
-    <sys:String x:Key="Tit2">hogar paterno e infancia</sys:String>
-    <sys:String x:Key="Tit3">clases con neefe</sys:String>
-    <sys:String x:Key="Tit4">músico en bonn</sys:String>
-    <sys:String x:Key="Tit5">viena</sys:String>
-    <sys:String x:Key="Tit6">músico independiente</sys:String>
-    <sys:String x:Key="Tit7">testamento de heiligenstadt</sys:String>
-    <sys:String x:Key="Tit8">heroica – fidelio</sys:String>
-    <sys:String x:Key="Tit9">apogeo</sys:String>
-    <sys:String x:Key="Tit10">últimos años</sys:String>
-    <sys:String x:Key="Tit11">contemporáneos</sys:String>
-    <sys:String x:Key="Tit12">el sobrino de beethoven</sys:String>
-    <sys:String x:Key="Tit13">círculo de amigos</sys:String>
-    <sys:String x:Key="Tit14">beethoven y goethe</sys:String>
-    <sys:String x:Key="Tit15">particularidades</sys:String>
-    <sys:String x:Key="Tit16">cuadernos de conversaciones</sys:String>
-    <sys:String x:Key="Tit17">en casa de beethoven</sys:String>
-    <sys:String x:Key="Tit18">obras</sys:String>
-    <sys:String x:Key="Tit19">literatura</sys:String>
-    <sys:String x:Key="Tit20">fuente de las imágenes</sys:String>
+    <sys:String x:Key="Tit1">Bonn</sys:String>
+    <sys:String x:Key="Tit2">Hogar paterno e infancia</sys:String>
+    <sys:String x:Key="Tit3">Clases con Neefe</sys:String>
+    <sys:String x:Key="Tit4">Músico en Bonn</sys:String>
+    <sys:String x:Key="Tit5">Viena</sys:String>
+    <sys:String x:Key="Tit6">Músico independiente</sys:String>
+    <sys:String x:Key="Tit7">Testamento de Heiligenstadt</sys:String>
+    <sys:String x:Key="Tit8">Heroica – fidelio</sys:String>
+    <sys:String x:Key="Tit9">Apogeo</sys:String>
+    <sys:String x:Key="Tit10">Últimos años</sys:String>
+    <sys:String x:Key="Tit11">Contemporáneos</sys:String>
+    <sys:String x:Key="Tit12">El sobrino de Beethoven</sys:String>
+    <sys:String x:Key="Tit13">Círculo de amigos</sys:String>
+    <sys:String x:Key="Tit14">Beethoven y Goethe</sys:String>
+    <sys:String x:Key="Tit15">Particularidades</sys:String>
+    <sys:String x:Key="Tit16">Cuadernos de conversaciones</sys:String>
+    <sys:String x:Key="Tit17">En casa de Beethoven</sys:String>
+    <sys:String x:Key="Tit18">Obras</sys:String>
+    <sys:String x:Key="Tit19">Literatura</sys:String>
+    <sys:String x:Key="Tit20">Fuente de las imágenes</sys:String>
 </ResourceDictionary>

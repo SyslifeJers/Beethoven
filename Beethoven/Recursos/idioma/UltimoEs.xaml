@@ -1,0 +1,39 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">últimos años</sys:String>
+
+        <sys:String x:Key="Text1">„Plaudite amici, comoedia finita est.“La enfermedad, la escasez de dinero y las preocupaciones por su sobrino marcaron los últimos años de vida de Beethoven. A pesar de todo, como después del "Testamento de Heiligenstadt", reunió todas sus energías artísticas y creó sus últimas obras: la "Missa solemnis", las últimas sonatas para piano, los últimos cuartetos y la 9.ª sinfonía. La aceptación final de "Fidelio" lo animó de nuevo en 1823 a forjar planes de ópera. Iba a ser "Melusine", de Franz Grillparzer, con quien ya habló del asunto. Pero ya no hubo tiempo para eso.
+    </sys:String>
+    <sys:String x:Key="Text2">En otoño de 1826, Beethoven pasó algunas semanas en la finca de Gneixendorf, que había comprado su hermano. Sufría de cirrosis hepática y ascitis y el 2 de diciembre, durante el viaje de vuelta a Viena (en un carruaje abierto), enfermó de pulmonía. Se recuperó un poco y, el 3 de enero de 1827, redactó su testamento. Sabía que era el final. Entre sus últimas visitas se hallaron Hummel, Kreutzer y el joven Franz Schubert. El 23 de marzo dictó su último testamento: "Mi sobrino Karl será mi único heredero. El capital de mi herencia, no obstante, ha de pasar a sus herederos naturales o testamentarios". Al día siguiente, Beethoven recibió la extremaunción y falleció el 26 de marzo por la tarde, durante una tormenta.
+    </sys:String>
+    <sys:String x:Key="Text3">El 29 de marzo, veinte mil personas acudieron a su entierro en el cementerio de Währing. La ceremonia de bendición se celebró en la iglesia parroquial de Alservorstadt, en la que ocho maestros de capilla sostuvieron la mortaja y varios músicos portaban las antorchas a ambos lados, entre ellos Schubert. Durante el sepelio en el cementerio de Währing no se podía hablar; la oración fúnebre, escrita por Grillparzer, la recitó a las puertas de la entrada el actor Anschütz
+    </sys:String>
+    <sys:String x:Key="Text4">El 21 de junio de 1888, los restos mortales de Beethoven se trasladaron al Zentralfriedhof (cementerio central) y se enterraron en una tumba honorífica.
+Con todos los éxitos de este año, no hay que olvidar que Beethoven se iba quedando cada vez más sordo hasta que, en 1818, ya no oía nada.
+    </sys:String>
+    <sys:String x:Key="Text5">Gerhard von Breuning dijo sobre su visita a Beethoven:
+    </sys:String>
+    <sys:String x:Key="Text6">"Aquel día, como muchas veces, lo encontré durmiendo cuando llegué. Me senté junto a la cama, procuré no hacer ruido para no despertarlo de su sueño (esperando que este fuera reparador) y hojeé y leí los cuadernos de conversaciones aún por terminar que se encontraban en la mesita de noche para saber quién había estado aquí entre tanto y de qué se había hablado. Encontré, entre otras, esta frase: 'Vuestro cuarteto, ejecutado ayer por Schuppanzigh, no ha gustado'. Cuando un poco más tarde se despertó, puse ante sus ojos este pasaje, preguntándole qué pensaba: 'Ya les gustará algún día', me respondió lacónicamente; y añadió con convicción y declaró de forma perentoria que él escribía como juzgaba y que no se dejaba inducir a error por los criterios de sus contemporáneos. Añadió: 'Sé que soy un artista'".
+[Breuning, ob. cit. P. 142 y s.]
+    </sys:String>
+    <sys:String x:Key="Text7">Compuso la sonata "Hammerklavier", la "Missa solemnis" y la 9.ª sinfonía. El 19 de marzo de 1823, el archiduque Rodolfo recibió la "Missa solemnis", sobre cuyo kirie Beethoven había escrito: "Del corazón - que pueda volver al corazón". Con ella, quería despertar sentimientos religiosos duraderos entre los cantantes y los oyentes y él mismo había ahondado en Dios y la religiosidad como individuo durante el trabajo de esta obra, pero no en la institución de la iglesia. La "Misa solemnis" no es música para misas, sino la expresión de la profunda religiosidad del artista y hombre Beethoven.
+    </sys:String>
+    <sys:String x:Key="Text8">La 9.ª sinfonía se estrenó el 7 de mayo de 1824, dirigida por Beethoven como formalidad, pero este ya no podía oír los aplausos del público. Los ingresos también fueron decepcionantemente bajos.
+    </sys:String>
+    <sys:String x:Key="Text9">Mientras que en el campo de la composición Beethoven abría siempre nuevos caminos, su vida daba vueltas sin sucesos externos por caminos cada vez más miserables y estaba caracterizada por la enfermedad, la soledad, los problemas financieros y las querellas por su sobrino.
+En marzo de 1827, Ferdinand Hiller visitó al enfermo Beethoven con Hummel y la esposa de este:
+    </sys:String>
+
+    <sys:String x:Key="Text10">"... Ahora parecía lamentar mucho no haberse casado. Ya en nuestra primera visita había bromeado sobre esto con Hummel... 'Tú', le dijo riendo, 'tú eres un hombre afortunado; tienes una mujer que te cuida, que está enamorada de ti, ¡pero yo, desgraciado de mí!', y lanzó un fuerte suspiro".
+[Benyovszky, K. "J. N. Hummel, der Mensch und Künstler" Bratislava: 1934. P. 151 y ss.]
+    </sys:String>
+
+    <sys:String x:Key="Text11">Beethoven, que sufría de cirrosis hepática y de ascitis, enfermó de pulmonía debido a la hipotermia sufrida en el viaje en un vagón abierto de Gneixendorf a Viena en diciembre (!) de 1826. Después de recuperarse un poco, falleció el 26 de marzo de 1827 en Viena. Una gran cantidad de personas participaron en el entierro en el cementerio de Währing el 29 de marzo. Nada menos que Franz Grillparzer escribió el "discurso frente a la tumba de Beethoven", que recitó el actor Anschütz a la entrada del cementerio
+    </sys:String>
+    <sys:String x:Key="Text12">"Nosotros, que estamos aquí frente a la tumba del difunto, somos en cierto modo los representantes de toda una nación, de todo el pueblo alemán, y estamos aquí para lamentar la pérdida de una mitad altamente aclamada de lo que nos queda del brillo perdido de nuestro arte nacional, del florecimiento espiritual de nuestra tierra natal. El héroe de la poesía en lengua alemana todavía vive, y que viva mucho todavía... Pero el último maestro del sonido, la exquisita boca de la música, el hombre que heredó y expandió la inmortal fama de Händel y Bach, de Haydn y Mozart, ha cesado de vivir y nosotros estamos aquí llorando, frente a las cuerdas rotas de un instrumento ahora silenciado...
+Fue un artista, pero también fue un hombre. Un hombre en todo y en el más alto sentido de la palabra. Porque se apartó del mundo, lo llamaron misántropo, y porque se mantuvo indiferente al sentimentalismo, lo llamaron insensible...
+Y cuando, a lo largo de vuestras vidas, el poder de su obra rompa sobre vosotros como una tormenta, cuando vuestro gozo fluya en el medio de una generación que aún no ha nacido, entonces recordad este momento y pensad: estuvimos allí cuando lo enterraron y, cuando murió, nosotros lloramos".
+    </sys:String>
+</ResourceDictionary>

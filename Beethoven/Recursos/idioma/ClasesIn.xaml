@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">Lessons with Neefe</sys:String>
+    <sys:String x:Key="Text1">“Since the age of four, music began to be my primary occupation.” With these words began Beethoven's dedication of his piano sonata, published in 1783, to Elector Max Friedrich of Cologne. While music had previously been an "occupation," it was only with Beethoven's enrollment as a student of Christian Gottlob Neefe (1748-1798) that we can speak of regular music lessons for the first time.</sys:String>
+    <sys:String x:Key="Text2">Neefe arrived in Bonn in 1779. He had received most of his education in Leipzig, where he had become familiar with the works of Johann Sebastian Bach and where Johann Adam Hiller (1728-1804) encouraged him to compose "singspiele" (a type of popular German opera) and comic operas.</sys:String>
+    <sys:String x:Key="Text3">Neefe was a follower of the Enlightenment and Humanism, which surely had a direct influence on Beethoven. In his 1782 autobiography, he writes: "I love the great men of the world if they are good people... I hate bad princes more than bandits."</sys:String>
+    <sys:String x:Key="Text4">But Neefe was not only associated with the Enlightenment; he was also a Freemason. In his application for admission to the "Order of the Illuminati," he cited his ideals: "Application of human rights... tolerance of weakness, teaching the ignorant, resolution of error..." Neefe was the court organist in Bonn and conducted performances of opera and singspiele at the national theater.</sys:String>
+    <sys:String x:Key="Text5">He was soon convinced of Beethoven’s genius and taught him to play the piano and organ, continuo, and composition. He introduced him to Johann Sebastian Bach's "Well-Tempered Clavier" and to the works of Carl Philipp Emanuel Bach (1714-1788), Haydn, and Mozart.</sys:String>
+    <sys:String x:Key="Text6">By 1782, when he was twelve years old, Beethoven was already able to substitute for his teacher by playing the organ. The following year, he frequently played harpsichord in the electoral orchestra.</sys:String>
+    <sys:String x:Key="Text7">In 1782, under the protection of his teacher, Beethoven's first work was published (by Goetz, in Mannheim): nine variations on a march by Ernst Christoph Dressler.</sys:String>
+    <sys:String x:Key="Text8">During this time, he composed the 3 piano sonatas known as the "Kurfürstensonaten" from 1782-1783 (WoO 47) and the three piano quartets of 1785 (WoO 36), probably by his teacher's suggestion. These works already show, with their originality and passion, the mark of the great composer.</sys:String>
+    <sys:String x:Key="Text9">In 1783, Neefe wrote the first published notice about Beethoven: “Louis van Beethoven plays the piano in a very advanced and vigorous manner, reads scores very well, and to summarize: he mostly plays the Well-Tempered Clavier of Sebastian Bach.” [Ludwig Schiedermair. "Der junge Beethoven" ("The Young Beethoven"). Leipzig: 1925. P.161 and following.]</sys:String>
+    <sys:String x:Key="Text10">Beethoven was at the top of the salary list on June 27, 1784, just after Neefe, with an annual salary of 150 florins. Like his father and grandfather, Ludwig was now, with a fixed salary and employment, a member of the Court Chapel of Bonn.</sys:String>
+
+</ResourceDictionary>

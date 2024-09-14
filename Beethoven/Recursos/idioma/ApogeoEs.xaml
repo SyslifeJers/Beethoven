@@ -1,0 +1,44 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">Apogeo</sys:String>
+    <sys:String x:Key="Text1">"En el mundo del arte, como en toda la creación, la libertad y el progreso son el objetivo".
+    </sys:String>
+    <sys:String x:Key="Text2">Antes de la "Missa solemnis", Beethoven ya creó una obra de la música eclesiástica con su "Misa en do mayor" que, como muchas de sus obras, señaló una nueva dirección. El encargo lo realizó el príncipe Nikolaus Esterházy y la obra se estrenó el día del santo de su esposa, el 13 de septiembre de 1807, en la capilla del castillo en Eisenstadt. Su estilo poco habitual no obtuvo una buena acogida y el príncipe Esterházy dijo:
+    </sys:String>
+    <sys:String x:Key="Text3">"Pero, querido Beethoven, ¿qué habéis vuelto a hacer?".
+    </sys:String>
+    <sys:String x:Key="Text4">El 8 de junio de 1808, Beethoven escribió a Breitkopf Y Härtel:
+    </sys:String>
+    <sys:String x:Key="Text5">"No me gusta hablar sobre mi misa ni, en general, sobre mí mismo, pero creo que he tratado el texto de una forma que pocas veces se ha hecho".
+    </sys:String>
+    <sys:String x:Key="Text6">A finales de octubre de 1808, el rey de Westfalia, Jerónimo Bonaparte, intentó contratar a Beethoven para su Corte en Kassel. Pero los nobles mecenas de Viena no quisieron permitirlo: el archiduque Rodolfo, el príncipe Lobkowitz y el príncipe Kinsky le ofrecieron un contrato con un salario anual de 4000 florines, que se firmó el 1 de marzo de 1809. Con ello, Beethoven contaba con convertirse en maestro de la capilla imperial.
+    </sys:String>
+    <sys:String x:Key="Text7">En primavera de 1810, pensó seriamente en casarse con Therese Malfatti, pero esta rechazó su propuesta. Conoció a Bettina Brentano, a través de la cual conocería a Goethe
+Familia Breuning       
+    </sys:String>
+    <sys:String x:Key="Text8">La devaluación monetaria causada por el "Finanzpatent" de 1811 redujo el sueldo de Beethoven considerablemente.
+    </sys:String>
+    <sys:String x:Key="Text9">Pero con el estreno de la 7.ª sinfonía y la sinfonía de batalla "Wellingtons Sieg oder die Schlacht bei Vittoria" ["La victoria de Wellington o la batalla de Vitoria"] el 8 de diciembre de 1813 en la sala de la Universidad, comenzó una serie de conciertos brillantes que llevaron al compositor a la cima de su gloria y a su popularidad entre la población vienesa. Los músicos más importantes de Viena participaron en la orquesta (Hummel, Mayseder, Moscheles y Salieri). Después de la representación, Beethoven dijo para la "Intelligenzblatt" del periódico "Wiener Zeitung":
+    </sys:String>
+    <sys:String x:Key="Text10">"La dirección me ha sido confiada porque la música era composición mía; si hubiera sido de otro, habría tocado el bombo de tan buena gana como Hummel...".
+    </sys:String>
+    <sys:String x:Key="Text11"> Beethoven, en la cima de su gloria, realizó una revisión de "Fidelio" junto con el poeta Friedrich Treitschke. El 23 de mayo de 1814, la ópera se representó de nuevo en el Kärntnertortheater y, con pequeñas modificaciones, sonó la versión definitiva tres días más tarde (con la obertura que se toca actualmente). Esta vez fue todo un éxito.
+    </sys:String>
+    <sys:String x:Key="Text12">El apogeo fue el concierto del 29 de noviembre de 1814, en la Grosser Redoutensaal. Las emperatrices de Austria y Rusia, el rey de Prusia y casi todos los participantes del Congreso de Viena estuvieron presentes. El 25 de enero de 1815, en un concierto en el palacio imperial de Hofburg con motivo del cumpleaños de la emperatriz rusa, Beethoven tocó en público por última vez.
+    </sys:String>
+    <sys:String x:Key="Text13">No obstante, en esta época hubo suficientes dificultades: disputas con Johann Nepomuk Mälzel (inventor de instrumentos musicales mecánicos), problemas financieros (que mejoraron gracias a un nuevo contrato con Lobkowitz y con la familia Kinsky, que le garantizaron 1360 florines de renta vitalicia) y la muerte de su hermano Karl el 15 de noviembre de 1815, quien designó a Beethoven en sus últimas voluntades como tutor de su sobrino Karl.
+    </sys:String>
+    <sys:String x:Key="Text14">La sordera progresiva ya no podía compensarse con los audífonos y Beethoven se empezó a servir de pequeños cuadernitos en los que él y sus visitantes escribían preguntas y respuestas. De unos 400 "cuadernos de conversaciones" se conservan 137, que ofrecen a la investigación ideas importantes sobre la vida del compositor.0
+    </sys:String>
+    <sys:String x:Key="Text15">El príncipe Nikolaus Esterházy le había encargado una misa a Beethoven, pero la "Misa en do mayor" no contó con su aprobación. El príncipe escribió a la condesa Henriette von Zielinska:
+    </sys:String>
+   <sys:String x:Key="Text16">"La messe de Beethoven est insuportablement ridicule et detestable, je ne suis pas convaincu qu’elle puisse meme paroitre honêtement: j’en suis coleré et honteux..." ["La misa de Beethoven es insoportablemente ridícula y detestable, no estoy seguro de que pueda representarse de manera aceptable: estoy furioso y abochornado..."]
+    [Harich, Johann. "Beethoven in Eisenstadt" ("Beethoven en Eisenstadt"). Separata del "Burgenländische Heimatblätter". Eisenstadt: 1959, Año. 21, n.º 2. P. 173 y ss.]
+    </sys:String>
+    <sys:String x:Key="Text17">También la publicación de la misa por parte de Breitkopf y Härtel causó dificultades, pero Beethoven estuvo siempre convencido de haber obrado correctamente. Schubert apreciaba mucho esta misa.
+    </sys:String>
+    <sys:String x:Key="Text18">"El aspecto exterior de Beethoven tenía algo insólitamente llamativo en la calle debido a la desenvoltura tan característica de su ropa. Mayormente absorto en sus pensamientos y murmurando para sí, muchas veces gesticulaba con los brazos cuando iba solo. Cuando estaba en sociedad, hablaba muy ardorosamente y fuerte y, como quien lo acompañara tenía que escribir siempre la respuesta en el cuaderno de conversación, al andar tenía que pararse continuamente, lo que ya llamaba en sí la atención, o expresar sus respuestas con mímica, lo que resultaba aún más llamativo...".[Breuning, ob. cit. P. 96 y ss.]
+    </sys:String>
+</ResourceDictionary>

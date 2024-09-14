@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">Works1 Opera</sys:String>
+    <sys:String x:Key="Text1">"I do not play for</sys:String>
+    <sys:String x:Key="Text2">Masses</sys:String>
+    <sys:String x:Key="Text3">Oratorios, cantatas, and songs with orchestra</sys:String>
+    <sys:String x:Key="Text4">9 symphonies</sys:String>
+    <sys:String x:Key="Text5">11 overtures and "Wellington's Victory"</sys:String>
+    <sys:String x:Key="Text6">1 ballet</sys:String>
+    <sys:String x:Key="Text7">4 incidental music works</sys:String>
+    <sys:String x:Key="Text8">Concertos:</sys:String>
+    <sys:String x:Key="Text9">6 piano concertos (nos. 1-5 and WoO 4, composed in 1784),</sys:String>
+    <sys:String x:Key="Text10">1 violin concerto,</sys:String>
+    <sys:String x:Key="Text11">1 triple concerto</sys:String>
+    <sys:String x:Key="Text12">Chamber music:</sys:String>
+    <sys:String x:Key="Text13">16 string quartets and a great fugue for string quartet</sys:String>
+    <sys:String x:Key="Text14">Various chamber works, trios, and duo sonatas</sys:String>
+    <sys:String x:Key="Text15">32 piano sonatas and 3 "Kurfürstensonaten" sonatas</sys:String>
+    <sys:String x:Key="Text16">Piano variations and small works</sys:String>
+    <sys:String x:Key="Text17">Songs with piano accompaniment</sys:String>
+
+</ResourceDictionary>

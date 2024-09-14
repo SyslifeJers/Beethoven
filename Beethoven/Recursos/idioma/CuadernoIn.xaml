@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">Conversation Notebooks</sys:String>
+
+    <sys:String x:Key="Text1">In 1818, Beethoven had become completely deaf and, from then on, used small notebooks in which he wrote questions and answers about himself with people. There were about 400 "conversation notebooks," of which 137 are preserved today: representative notes of the daily events around the artist, dramatic documents of a sick, lonely, and tormented man (10-volume edition by Köhler and Herre. Leipzig: 1968).</sys:String>
+
+    <sys:String x:Key="Text2">Much can be learned from the writings about living conditions, purchases, and newspaper clippings, but little about composition. Anton Schindler, who had been Beethoven's confidant since 1819 and who inherited Beethoven's notebooks after his death, may have acted manipulatively regarding the selection of the remaining notebooks. He wrote the first biography of Beethoven, in which he presented himself as the composer’s closest friend.</sys:String>
+
+    <sys:String x:Key="Text3">From Beethoven's conversation notebooks and diaries, it becomes evident how he lived in a world of ideas and ingenuity. This helped Beethoven reconcile his sickly external existence with his drive to reach the pinnacle, as well as to reconcile or overcome, who knows, human affection with lofty artistic goals.</sys:String>
+
+    <sys:String x:Key="Text4">Affection and resignation to fate were not Beethoven's concern. He defied his fortune when he used a pencil and a notebook to "speak" and "hear."</sys:String>
+
+</ResourceDictionary>

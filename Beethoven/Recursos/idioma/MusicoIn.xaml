@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">Musician in Bonn</sys:String>
+
+    <sys:String x:Key="Text1">"Love above all freedom and never betray the truth (even for a throne)." Beethoven followed in the footsteps of his father and grandfather and became a musician in the Court Chapel of Bonn. He was an organist, harpsichordist, and viola player, initially as a substitute for his teacher Neefe, but soon "for his own interest."</sys:String>
+
+    <sys:String x:Key="Text2">The Court Chapel of Bonn was responsible for vocal and instrumental music in churches, concerts, and theaters. Through ecclesiastical music, the young Beethoven became acquainted with the works of Caldara, Pergolesi, Holzbauer, and Haydn; in concerts, he encountered the Mannheim, Paris, and early Vienna Schools; and in the theater, he was exposed to Opera Buffa, Opéra Comique, and German Singspiel. He also interacted with Bonn's vibrant private music scene, where the musical evenings of Court Counselor von Mastiaux were especially significant. The Breuning family's home became a second home for him.</sys:String>
+
+    <sys:String x:Key="Text3">Probably thanks to Neefe's intervention, Beethoven obtained leave in early 1787 to travel to Vienna to see Mozart and study there. He traveled via Munich and arrived in Vienna on April 7. Reports about his contact with Mozart and possibly taking lessons from him vary. However, it is presumed that the two artists met.</sys:String>
+
+    <sys:String x:Key="Text4">Beethoven's first stay in Vienna lasted only 14 days. Due to his mother's serious illness, he was forced to return to Bonn. In a letter to Mr. von Schaden, residing in Augsburg, he wrote: "I have seen my mother, but in the most deplorable state of health. She had tuberculosis and finally died about seven weeks ago [July 17, 1787], after enduring much pain and suffering. To me, she was a kind and gentle mother, my best friend."</sys:String>
+
+    <sys:String x:Key="Text5">At this time, Count Ferdinand von Waldstein arrived at the Electorate of Bonn, a highly cultured music lover who took Beethoven under his wing and greatly influenced his artistic development. His recommendations opened doors for Beethoven to the highest circles in Vienna.</sys:String>
+
+    <sys:String x:Key="Text6">As Beethoven's father, after numerous strokes of fate, increasingly turned to alcohol, the responsibility for the family fell on Ludwig. The father was dismissed from the Court Chapel in 1789, and Beethoven received half of his father's salary in addition to his own for educating his younger brother. After his father's death in 1792, brothers Kaspar Karl and Nikolaus Johann moved to Vienna, one after the other. Karl worked as a civil servant, while Johann became a pharmacist in Vienna and later in Linz.</sys:String>
+
+    <sys:String x:Key="Text7">Beethoven's compositional activity had diminished in these final years in Bonn, likely because he wanted to improve his education. On May 14, 1789, he enrolled at the University of Bonn. He soon saw himself not only as a musician but as a thinker and philosopher, a contemporary critic with political interests. On December 25, 1790, he met Haydn in Bonn and was able to show him the two cantatas he had written there.</sys:String>
+
+    <sys:String x:Key="Text8">With another leave of absence from his court service, on November 2 or 3, 1792, Beethoven left Bonn again to go to Vienna to study with Haydn. Count Waldstein wrote in Beethoven's album: "With relentless effort you shall receive: the spirit of Mozart from the hands of Haydn."</sys:String>
+
+    <sys:String x:Key="Text9">In Bonn, Beethoven not only befriended prominent composers of his time but also became familiar with literature and philosophy. Now he could make up for what was missing in his education within the refined and cultured circles of the Bonn court.</sys:String>
+
+    <sys:String x:Key="Text10">Particularly noteworthy is the home of the widow of Court Counselor von Breuning, which, after his mother's death in 1787, became a second paternal home for the young musician. Beethoven taught music to the counselor's children and formed a deep friendship with his daughter Eleonore that lasted until the end of his life (she married Beethoven's childhood friend, Franz Gerhard Wegeler). Her brother, Stephan von Breuning, traveled to Vienna in 1801 as a jurist and remained a friend of Beethoven. Wegeler wrote in 1838:</sys:String>
+
+    <sys:String x:Key="Text11">"Soon Beethoven was treated as the child of the house; he spent not only most of the day there but also some nights. There he felt free and moved with ease. Everything contributed to making him happy and helping him develop his spirit." [Wegeler-Ries. P.10]</sys:String>
+
+    <sys:String x:Key="Text12">Breuning wrote about Beethoven's first stay in Vienna, during which he was to study with Mozart:</sys:String>
+
+    <sys:String x:Key="Text13">"... Beethoven arrived in Vienna in the winter of 1786 to 1787 and immediately found open arms everywhere, especially the most courteous reception from the aristocratic art-loving families of that time in Vienna. Wegeler also arrived soon, in 1787, and, equipped with excellent recommendations and the support of the Elector Prince, the circles of famous Josephinist professors and doctors were opened to him, as they were to Beethoven: Brambilla, Gerhard von Vering, Gottfried van Swieten, Hunczovsky, Adam Schmidt, Wilhelm Schmitt, and many more." [Breuning, op. cit. P. 30]</sys:String>
+
+    <sys:String x:Key="Text14">The encounter with Mozart took place, and he also received (a few) lessons from him.</sys:String>
+
+    <sys:String x:Key="Text15">"[Beethoven] was sent to Mozart as a boy, and Mozart asked him to improvise something. 'It’s very nice,' said Mozart, 'but it is prepared.' Offended, Beethoven asked him to give a theme and improvised in such a way that Mozart told friends: 'Pay attention to him, one day he will have something to teach.'" [Kerst, Friedrich. "Die Erinnerungen an Beethoven" ("Memories of Beethoven"). Stuttgart: 1913. II. P.185]</sys:String>
+
+
+</ResourceDictionary>

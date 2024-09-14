@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">en casa de beethoven</sys:String>
+    <sys:String x:Key="Text1">Es bastante sabido que Beethoven no era muy bueno con la administración doméstica. Solo el número de mudanzas en Viena [¡en el nivel 3!] ya demuestra que no se conformaba con nadie y que se "peleaba" rápidamente con los señores de la casa, es decir, las conversaciones con ellos acababan en pelea. Trataba mal al personal de la casa, era desconfiado y tacaño y, seguramente debido a sus constantes enfermedades y achaques, era un hombre difícil al que nadie aguantaba durante mucho tiempo. Beethoven vivió muy a menudo en casa del barón Pasqualati, en la calle Mölker Bastei, y siempre acababa volviendo allí. Ferdinand Ries explicó:
+    </sys:String>
+    <sys:String x:Key="Text2">"Se mudó [...] en varias ocasiones, pero siempre volvía, así que, cuando Beethoven se marchó, como oí más tarde, el bondadoso barón Pasqualati dijo: 'El alojamiento no se va a alquilar, Beethoven podría volver'".
+    </sys:String>
+    <sys:String x:Key="Text3">Beethoven adoraba las viviendas orientadas al sur y con vistas a la naturaleza, después de todo las estancias al aire libre y su amor por la naturaleza representaban elementos muy importantes en su vida
+    </sys:String>
+    <sys:String x:Key="Text4">Beethoven sometía a su ego su entorno y todo lo relacionado con él. El 30 de noviembre de 1808, Johann Friedrich Reichardt escribió acerca de la condesa de Erdödy:
+    </sys:String>
+    <sys:String x:Key="Text5">"También he encontrado la dirección del bueno de Beethoven y lo he visitado. Aquí se ocupan tan poco de él que nadie podía indicarme dónde vivía y me ha costado mucho obtener su dirección. Al fin lo he encontrado, en una gran casa desierta y aislada. Al principio parecía tan triste como su casa, pero pronto se animó y mostró tanta alegría por volver a verme como yo por verlo a él...".
+    </sys:String>
+    <sys:String x:Key="Text6">Beethoven cambió de domicilio sesenta y siete veces en los casi treinta y cinco años que pasó en Viena. Pocos de estos domicilios se conservan hoy en día, entre ellos la llamada "Pasqualatihaus" ("Casa de Pasqualati"), en la calle Mölker Bastei, en la que Beethoven vivió repetidas veces entre 1804 y 1808 y entre 1810 y 1814. Allí trabajó en la 4.ª, 5.ª y 7.ª sinfonías, "Fidelio" y el concierto para violín, entre otros.
+    </sys:String>
+    <sys:String x:Key="Text7"> Fueron probablemente las peleas con los los dueños (molestias por el ruido y el mal carácter del inquilino) lo que causaron estos cambios frecuentes de domicilio, pero también en esta época era habitual trasladarse como mínimo en verano de la calurosa y polvorienta ciudad al campo, o al menos a la periferia. La gente reunía los pocos bienes que tenía, los cargaba en un carruaje y se mudaba una y otra vez, ya que en otoño no era muy difícil encontrar otra casa de (sub)alquiler.
+    </sys:String>
+
+</ResourceDictionary>

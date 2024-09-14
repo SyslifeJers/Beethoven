@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">literatura</sys:String>
+
+    <sys:String x:Key="Text1">Vida y obra:Obras:</sys:String>
+
+    <sys:String x:Key="Text2">Brandenburg, Sieghard et al (ed.). "Briefe Beethovens" ["Cartas de Beethoven"]. 8 vol. Múnich y Bonn: 1996 y s.
+"Briefe Beethovens" ["Cartas de Beethoven"]. Obras completas en CD-Rom. Múnich: Henle.
+Köhler-Herre-Beck (ed.) "Konversationshefte" ["Cuadernos de conversaciones"]. 10 vol. Leipzig: 1972-1993.
+Adorno, Theodor W. "Beethoven. Philosophie der Musik. Fragmente und Texte" ["Beethoven. Filosofía de la música. Fragmentos y Textos"]. Frankfurt: 1993.
+Dahlhaus, Carl. "Ludwig van Beethoven und seine Zeit" ["Ludwig van Beethoven y su época"]. Laaber: 1987.
+Fiebig, Paul. "Über Beethoven" ["Sobre Beethoven"]. Stuttgart: 1993.
+Landon, H.C.Robbins. "Beethoven. Sein Leben und seine Welt in zeitgenössischen Bildern und Texten" ["Beethoven. Su vida y su mundo en imágenes y textos contemporáneos"]. Zúrich: 1970.
+Rexroth, Dieter. "Beethoven. Leben-Werke-Dokumente" [Beethoven. Vida-obra-documentos"]. Mainz y Múnich: 1982.
+Solomon, Meynard. "Beethoven" ["Beethoven"]. Múnich: 1979.
+Thayer, Alexander Wheelock. Compl. por Hermann Deiter. Revisión de Hugo Riemann. "Ludwig van Beethovens Leben" ["La vida de Ludwig van Beethoven"]. Leipzig: 1908-1923.</sys:String>
+        <sys:String x:Key="Text3">Obras:
+Índice temático-bibliográfico de Georg Kinsky de todas sus composiciones terminadas. Tras la muerte del autor, ed. por Hans Halm. Múnich y Duisburg:
+ completas antiguas: Breitkopf y Härtel, 1862-88.
+Obras completas nuevas: desde 1960 en Henle, Múnich y Duisburg (ed.: Archivo de Beethoven de Bonn).</sys:String>
+
+</ResourceDictionary>

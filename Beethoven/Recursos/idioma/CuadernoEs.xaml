@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title" >cuadernos de conversaciones</sys:String>
+
+    <sys:String x:Key="Text1"> En 1818, Beethoven había ensordecido del todo y, a partir de entonces, se sirvió de pequeños cuadernos en los que escribía preguntas y respuestas sobre sí con la gente. Había unos 400 "cuadernos de conversaciones", de los cuales se conservan hoy en día 137: notas representativas de los sucesos diarios alrededor del artista, documentos dramáticos de un hombre enfermo, solitario y atormentado (edición en 10 volúmenes de Köhler y Herre. Leipzig: 1968).
+    </sys:String>
+    <sys:String x:Key="Text2"> Se puede aprender mucho de los escritos sobre las condiciones de vida, compras y transcripciones de periódicos, pero poco acerca de la composición. Anton Schindler, que era confidente de Beethoven desde 1819 y de quien pasaron a ser propiedad los cuadernos de Beethoven tras la muerte de este, pudo haber actuado de forma manipulativa con respecto a la elección de los cuadernos que quedaron. Escribió la primera biografía de Beethoven, en la que se presentó como el amigo más íntimo del compositor
+    </sys:String>
+    <sys:String x:Key="Text3">De los cuadernos de conversaciones y diarios de Beethoven se desprende cómo vivió en un mundo de ideas e ingenio. Esto ayudó a Beethoven a conciliar su existencia enfermiza exterior con su afán por llegar a la cima, así como para aunar o derrotar, quién sabe, el cariño humano con los altos objetivos artísticos.
+    </sys:String>
+   <sys:String x:Key="Text4">El afecto y la inclinación ante el destino no eran cosa de Beethoven. Desafió a su fortuna cuando se valió de un lápiz y un cuaderno para poder "hablar" y "oír".
+    </sys:String>
+</ResourceDictionary>

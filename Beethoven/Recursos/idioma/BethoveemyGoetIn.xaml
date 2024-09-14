@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">Beethoven and Goethe</sys:String>
+    <sys:String x:Key="Text1">"I have never seen a more powerfully concentrated, more energetic, more sensitive artist. I understand very well that his attitude is extraordinary in the eyes of the world."</sys:String>
+    <sys:String x:Key="Text2">Bettina von Brentano had arranged this meeting between Goethe and Beethoven in July 1812. Goethe was startled not only by Beethoven's music but also by his rude character. In a letter to Karl Friedrich Zelter dated September 2, 1812, Goethe wrote:</sys:String>
+    <sys:String x:Key="Text3">"I met Beethoven in Teplitz. His talent impressed me; unfortunately, he is an untamed personality who, although he is not wrong in saying that the world is detestable, does not make the slightest effort to make it more pleasant, either for himself or for others. His attitude is, on the other hand, very understandable and even worthy of pity, as he is losing his sense of hearing, and this may be affecting his social side more than his musical side. His laconic character will be further exacerbated by his deficiency."</sys:String>
+    <sys:String x:Key="Text4">Beethoven, for his part, was apparently disappointed by Goethe when, in a letter to Breitkopf and Härtel dated August 9, 1812, he wrote:</sys:String>
+    <sys:String x:Key="Text5">"Goethe likes the courtly atmosphere too much, more than is suitable for a poet. There is little more to say about the ridiculous virtuosos when poets, who should be the foremost educators of the nation, can forget everything for this chimera."</sys:String>
+    <sys:String x:Key="Text6">On February 8, 1823, Beethoven, completely deaf, ill, and lonely, wrote to Goethe asking him to arrange a pre-premiere concert for his "Missa Solemnis" with the Duke of Saxe-Weimar.</sys:String>
+    <sys:String x:Key="Text7">"I know that you will not deny an artist who has always seen true benefit move away from him [from art] your intercession when necessity presses, and thus collaborate with each other. The good is clear to us at all times and I also know that Your Excellency will not reject my plea. A few words from you would fill me with happiness. With the deepest and most unlimited consideration, your admirer, Beethoven." Goethe did not reply to this letter.</sys:String>
+
+
+</ResourceDictionary>

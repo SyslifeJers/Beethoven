@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">Eroica – Fidelio</sys:String>
+
+    <sys:String x:Key="Text1">"I do not play for those pigs!" Beethoven was the first musician to achieve recognition as an independent composer without a fixed position. He defined himself and his persona through the attention given to his work and always emphasized securing his "copyrights". Overcoming the depression after writing the "Heiligenstadt Testament" gave him great energy, and even his compositional style changed.</sys:String>
+
+    <sys:String x:Key="Text2">Whereas he had previously made his name mainly through piano compositions, he now focused more intensely on his symphonic works.</sys:String>
+
+    <sys:String x:Key="Text3">In the summer of 1803, Beethoven was primarily occupied with his 3rd Symphony, the "Eroica", in Baden and Oberdöbling. In April 1803, he organized his first concert: his 3rd Piano Concerto, the oratorio "Christ on the Mount of Olives", and the 2nd Symphony were performed. For these performances, musicians were hired for a single night, which was no longer feasible due to the demands placed on them. The "Eroica" was no longer performed "at sight," so Beethoven ceded the premiere to Prince Lobkowitz's chapel (in 1804 at a musical evening of Prince Lobkowitz and on April 7, 1805, for the public).</sys:String>
+
+    <sys:String x:Key="Text4">In many ways, the 3rd Symphony represents a turning point in symphonic creation during the Classical period and especially for Beethoven. It aims to represent the heroic and epic concept, and the musical form is subordinated to the development of musical thought. Melodic lines, theme development, and elaboration no longer dominate the musical event; instead, the full body of the orchestra comes into action to express musical thoughts and feelings and to produce sound concentrations that do not follow linear structures but rather the "absolute" artistic thought of its creator.</sys:String>
+
+    <sys:String x:Key="Text5">With his 5th Symphony, Beethoven manages without any programmatic idea. This symphony is characterized by an even greater transparency and precision in musical language. In 1880, Cosima Wagner wrote in her diary:</sys:String>
+
+    <sys:String x:Key="Text6">"During breakfast, Richard talks about the symphony in C minor, saying that he has thought a lot about it, and it seems to him as if Beethoven suddenly wanted to separate himself from the musician and behave like a great popular orator; he speaks broadly, like fresco painting, and has omitted all the musical details, so rich, for example, in the finale of the 'Eroica'.” [Gregor-Dellin, Martin and Mack, Dietrich (eds.), "C. Wagner Tagebücher" ("The Diaries of C. Wagner"). Munich: 1977. Vol. 2. p. 568]</sys:String>
+
+    <sys:String x:Key="Text7">In 1805, Beethoven completed his only opera. The content of "Leonora" (libretto by Jean-Nicolas Bouilly) was exactly what the composer wanted: justice triumphs over the mercy of tyrants and unwavering marital love overcomes inevitable fate. Censorship delayed the premiere, which was held on November 20 under the title "Fidelio oder die eheliche Liebe" ["Fidelio or the Marital Love"]. It was a failure. Few spectators attended as the French had occupied Vienna a week earlier. Additionally, the opera had lengthy passages, leading Beethoven to opt for a new version. With only two acts and a new overture (Leonora No. 3 instead of the original Leonora No. 2), the opera was performed again on March 29, 1806, but after a few performances, Beethoven canceled it.</sys:String>
+
+    <sys:String x:Key="Text8">Despite the failure of "Fidelio", Beethoven applied for the position of resident composer at the Vienna Court Opera (he applied to the management in early 1807), demanding an annual salary of 2400 florins. He did not get the position, and his subsequent operatic plans were not realized.</sys:String>
+
+    <sys:String x:Key="Text9">In Beethoven's musical oeuvre, the work on the 3rd Symphony marked a shift. The musical content, technical demands on musicians, and the length of the work surpassed anything seen before.</sys:String>
+
+    <sys:String x:Key="Text10">"In 1803, Beethoven composed his third symphony (now known as the 'Eroica Symphony') in Heiligenstadt, a village about an hour and a half from Vienna. Often, in his compositions, he had a particular theme in mind, though he usually mocked musical descriptions, especially meticulous applications of this genre. In this regard, Haydn’s 'The Creation' and 'The Seasons' were often the subject of jokes, without underestimating Haydn's great merits; he especially praised many of his choruses and other fragments. For this symphony, Beethoven had thought of Bonaparte, at a time when he was still the First Consul. At that time, Beethoven highly valued him and compared him to the great Roman consuls. I myself saw, as did many of his close friends, this symphony transcribed in score, with 'Bonaparte' written on it, and at the bottom 'Luigi van Beethoven', and no more words. I was the first to bring Beethoven the news that Bonaparte had declared himself Emperor. Upon hearing this, he was enraged and shouted: 'He is nothing but a vulgar man! Now he will trample all human rights, obey only his ambition! He will want to rise above others and become a tyrant!'</sys:String>
+
+    <sys:String x:Key="Text11">He went to his desk, took the title page, tore it up, and threw it on the floor. He rewrote the first page, and that is when the symphony received its name: 'Eroica Symphony'.” [Wegeler and Ries, op. cit. p. 77 and following.]</sys:String>
+
+</ResourceDictionary>

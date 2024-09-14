@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">obras1 ópera</sys:String>
+    <sys:String x:Key="Text1">"¡Yo no toco para</sys:String>
+    <sys:String x:Key="Text2">misas</sys:String>
+    <sys:String x:Key="Text3">Oratorios, cantatas y canciones con orquesta</sys:String>
+    <sys:String x:Key="Text4">9 sinfonías</sys:String>
+    <sys:String x:Key="Text5">11 oberturas y "Wellingtons Sieg" ["La victoria de Wellington"]</sys:String>
+    <sys:String x:Key="Text6">1 ballet</sys:String>
+    <sys:String x:Key="Text7">4 obras de música incidental</sys:String>
+    <sys:String x:Key="Text8">conciertos:</sys:String>
+    <sys:String x:Key="Text9">6 conciertos para piano (n.º 1-5 y WoO 4, comp. en 1784),</sys:String>
+    <sys:String x:Key="Text10">1 concierto para violín,</sys:String>
+    <sys:String x:Key="Text11">1 triple concierto</sys:String>
+    <sys:String x:Key="Text12">obras de cámara:</sys:String>
+    <sys:String x:Key="Text13">16 cuartetos de cuerda y una gran fuga para cuarteto de cuerda</sys:String>
+    <sys:String x:Key="Text14">Diferentes obras de cámara, tríos y sonatas para dúo</sys:String>
+    <sys:String x:Key="Text15">32 sonatas para piano y 3 sonatas "Kurfürstensonaten"</sys:String>
+    <sys:String x:Key="Text16">Variaciones para piano y pequeñas obras</sys:String>
+    <sys:String x:Key="Text17">Canciones con acompañamiento de piano</sys:String>
+</ResourceDictionary>

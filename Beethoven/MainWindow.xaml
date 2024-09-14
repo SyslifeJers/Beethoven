@@ -26,29 +26,43 @@
             <TreeView Margin="0,30,0,0" Background="Transparent" x:Name="MyTreeView">
                 <TreeViewItem x:Name="BonnItem" Header="{DynamicResource Tit1}">
                     <TreeViewItem x:Name="FamilyChildhoodItem" Header="{DynamicResource Tit2}" Tag="BonnPage" />
-                    <TreeViewItem x:Name="TuitionNeefeItem" Header="{DynamicResource Tit3}" Tag="TuitionNeefePage" />
-                    <TreeViewItem x:Name="MusicianBonnItem" Header="{DynamicResource Tit4}" Tag="MusicianBonnPage" />
+                    <TreeViewItem x:Name="TuitionNeefeItem" Header="{DynamicResource Tit3}" Tag="Clases" />
+                    <TreeViewItem x:Name="MusicianBonnItem" Header="{DynamicResource Tit4}" Tag="Musico" />
                 </TreeViewItem>
             </TreeView>
             <TreeView Background="Transparent">
                 <TreeViewItem Header="Viena">
-                    <TreeViewItem x:Name="IndependentMusicianItem" Header="Músico independiente" Tag="IndependentMusicianPage" />
-                    <TreeViewItem x:Name="HeiligenstadtTestamentItem" Header="Testamento de Heiligenstadt" Tag="HeiligenstadtTestamentPage" />
-                    <TreeViewItem x:Name="HeroicFidelioItem" Header="Heroica – Fidelio" Tag="HeroicFidelioPage" />
-                    <TreeViewItem x:Name="ApogeoItem" Header="Apogeo" Tag="ApogeoPage" />
-                    <TreeViewItem x:Name="LastYearsItem" Header="Últimos años" Tag="LastYearsPage" />
+                    <TreeViewItem x:Name="IndependentMusicianItem" Header="Músico independiente" Tag="Viena" />
+                    <TreeViewItem x:Name="HeiligenstadtTestamentItem" Header="Testamento de Heiligenstadt" Tag="Testamento" />
+                    <TreeViewItem x:Name="HeroicFidelioItem" Header="Heroica – Fidelio" Tag="Heroica" />
+                    <TreeViewItem x:Name="ApogeoItem" Header="Apogeo" Tag="Apogeo" />
+                    <TreeViewItem x:Name="LastYearsItem" Header="Últimos años" Tag="Ultimos" />
                 </TreeViewItem>
             </TreeView>
+            
+            <TreeView Background="Transparent">
+                <TreeViewItem Header="Contemporáneos">
+                    <TreeViewItem x:Name="Contemporáneos" Header="El sobrino de beethoven" Tag="Contemporáneos" />
+                    <TreeViewItem x:Name="Circulodeamigos" Header="Circulo de amigos" Tag="amigos" />
+                    <TreeViewItem x:Name="beethovenygoethe" Header="Beethoven y Goethe" Tag="BethoveenyGoet" />
+                </TreeViewItem>
+            </TreeView>
+            
+            <TreeView Background="Transparent">
+                <TreeViewItem Header="Particularidades">
+                    <TreeViewItem x:Name="conversaciones1" Header="Cuadernos de conversaciones" Tag="Cuaderno" />
+                    <TreeViewItem x:Name="encasadebeethoven" Header="En casa de beethoven" Tag="Casa" />
+                </TreeViewItem>
+            </TreeView>
+
             <ListBox x:Name="MenuListBox" Background="Transparent"  SelectionChanged="MenuListBox_SelectionChanged"   Margin="10">
                 <!-- Submenú de Bonn -->
                 <!-- Otras opciones del menú principal -->
 
-                <ListBoxItem Content="Contemporáneos" Tag="ContemporaneosPage" />
-                <ListBoxItem Content="Particularidades" Tag="ParticularidadesPage" />
-                <ListBoxItem Content="Obras" Tag="ObrasPage" />
-                <ListBoxItem Content="Literatura" Tag="LiteraturaPage" />
-                <ListBoxItem Content="Fuente de las imágenes" Tag="FuenteImagenesPage" />
-                <ListBoxItem Content="English" Tag="EnglishPage" />
+               
+                <ListBoxItem Content="Obras" Tag="Obras" />
+                <ListBoxItem Content="Literatura" Tag="Literatura" />
+                <ListBoxItem Content="Fuente de las imágenes" Tag="FuenteImagenes" />
             </ListBox>
         </StackPanel>
         <!-- Menú lateral -->

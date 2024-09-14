@@ -1,0 +1,105 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="Title">Círculo de amigos</sys:String>
+    <sys:String x:Key="Text1">Amenda Karl Ferdinand
+    </sys:String>
+    <sys:String x:Key="Text2">Theologian, violin soloist and teacher, 1798/99 in Vienna. Friend of Beethoven's, correspondence.
+    </sys:String>
+    <sys:String x:Key="Text3">Arnim Bettine von (neé. Brentano)
+
+    </sys:String>
+    <sys:String x:Key="Text4">Acquaintance of Goethe and Beethoven; after his death published three letters addressed to the “Immortal Beloved”.
+
+    </sys:String>
+    <sys:String x:Key="Text5">Brentano Antonie
+
+    </sys:String>
+    <sys:String x:Key="Text6">Wife of Bettina's stepbrother, friend of Beethoven.
+
+    </sys:String>
+    <sys:String x:Key="Text7">Breuning Family
+
+    </sys:String>
+    <sys:String x:Key="Text8">Aristocratic family in Bonn, Beethoven's “guardian angels”. The widow Helene von Breuning and her children Eleonore and Stephan
+
+    </sys:String>
+    <sys:String x:Key="Text9">Brunsvik Family
+
+    </sys:String>
+    <sys:String x:Key="Text10">Beethoven was the piano teacher and friend of the daughters Therese and Josephine.
+
+    </sys:String>
+    <sys:String x:Key="Text11">Erdödy Countess Anna Maria
+
+    </sys:String>
+    <sys:String x:Key="Text12">Music lover and patron. Beethoven lived in her house in 1808 (today Beethoven memorial in Floridsdorf).
+
+    </sys:String>
+    <sys:String x:Key="Text13">Ertmann Baroness Dorothea
+
+    </sys:String>
+    <sys:String x:Key="Text14">One of the first female pianists in Vienna. Beethoven comforted her after the death of her only son by playing the piano.
+
+    </sys:String>
+    <sys:String x:Key="Text15">Fries Count Moritz von
+
+    </sys:String>
+    <sys:String x:Key="Text16">The 7 Symphony was dedicated to this music lover.
+
+    </sys:String>
+    <sys:String x:Key="Text17">Galitzin Nikolaus Prince
+
+    </sys:String>
+    <sys:String x:Key="Text18">Russian prince and admirer of Beethoven. Received dedication. Organised the first performance of “Missa solemnis” in St.Petersburg.
+
+    </sys:String>
+    <sys:String x:Key="Text19">Goethe J. W. v.
+
+    </sys:String>
+    <sys:String x:Key="Text20">Beethoven met Goethe several times in summer 1812.
+    </sys:String>
+
+    <sys:String x:Key="Text21">Franz Grillparzer</sys:String>
+    <sys:String x:Key="Text22">Beethoven wanted to set Grillparzer's "Melusine" to music. Grillparzer wrote Beethoven's funeral oration.</sys:String>
+    <sys:String x:Key="Text23">Giulietta Guicciardi</sys:String>
+    <sys:String x:Key="Text24">Beethoven's piano student; the dedicatee of the "Moonlight Sonata" Op. 27 No. 2, married to ballet composer Wenzel Robert, Count of Gallenberg.</sys:String>
+    <sys:String x:Key="Text25">Joseph Haydn</sys:String>
+    <sys:String x:Key="Text26">Beethoven's teacher.</sys:String>
+    <sys:String x:Key="Text27">Johann Nepomuk Hummel</sys:String>
+    <sys:String x:Key="Text28">Composer and pianist, participated in Beethoven's concerts.</sys:String>
+    <sys:String x:Key="Text29">Prince Ferdinand von Kinsky</sys:String>
+    <sys:String x:Key="Text30">Patron and supporter of Beethoven.</sys:String>
+    <sys:String x:Key="Text31">Rodolphe Kreutzer</sys:String>
+    <sys:String x:Key="Text32">Violin virtuoso, dedicatee of a Beethoven sonata.</sys:String>
+    <sys:String x:Key="Text33">Prince Karl Lichnowsky</sys:String>
+    <sys:String x:Key="Text34">Patron and promoter of Beethoven, who lived in the prince's house during his early years in Vienna.</sys:String>
+    <sys:String x:Key="Text35">Prince Joseph Franz Max Lobkowitz</sys:String>
+    <sys:String x:Key="Text36">Promoter of Beethoven, provided his orchestra for the premiere of the "Eroica".</sys:String>
+    <sys:String x:Key="Text37">Therese Malfatti</sys:String>
+    <sys:String x:Key="Text38">Niece of Beethoven's personal physician, Johann Malfatti. Rejected Beethoven's marriage proposal.</sys:String>
+    <sys:String x:Key="Text39">Johann Nepomuk Mälzel</sys:String>
+    <sys:String x:Key="Text40">Inventor of the metronome and mechanical instruments. Also built hearing aids for Beethoven.</sys:String>
+    <sys:String x:Key="Text41">Christian Gottlob Neefe</sys:String>
+    <sys:String x:Key="Text42">Beethoven's teacher.</sys:String>
+    <sys:String x:Key="Text43">Baron Johann von Pasqualati</sys:String>
+    <sys:String x:Key="Text44">Beethoven lived several times in his house on Mölker Bastei Street; whenever he moved, he always ended up returning.</sys:String>
+    <sys:String x:Key="Text45">Count Andréi Rasumowsky</sys:String>
+    <sys:String x:Key="Text46">Music lover and art collector, had his own string quartet. Received dedications from Beethoven.</sys:String>
+    <sys:String x:Key="Text47">Ferdinand Ries</sys:String>
+    <sys:String x:Key="Text48">Son of Franz Anton Ries (concertmaster of the Bonn Court Orchestra, Beethoven's violin teacher), whose father sent him to Vienna to take piano lessons with Beethoven.</sys:String>
+    <sys:String x:Key="Text49">Archduke Rudolph of Austria</sys:String>
+    <sys:String x:Key="Text50">Pianist and composer, Beethoven's pupil. Most of all, his patron and friend.</sys:String>
+    <sys:String x:Key="Text51">Antonio Salieri</sys:String>
+    <sys:String x:Key="Text52">Court chapel master, teacher of Beethoven.</sys:String>
+    <sys:String x:Key="Text53">Ignaz Schuppanzigh</sys:String>
+    <sys:String x:Key="Text54">Leader of Prince Lichnowsky's string quartet, friend of Beethoven.</sys:String>
+    <sys:String x:Key="Text55">Nanette Streicher</sys:String>
+    <sys:String x:Key="Text56">Pianist, co-owner with her husband of a famous piano company; occasionally took care of Beethoven's household.</sys:String>
+    <sys:String x:Key="Text57">Count Ferdinand Waldstein</sys:String>
+    <sys:String x:Key="Text58">Ambassador in Bonn, music lover; gave Beethoven letters of recommendation to go to Vienna.</sys:String>
+    <sys:String x:Key="Text59">Franz Gerhard Wegeler</sys:String>
+    <sys:String x:Key="Text60">Physician and friend of Beethoven since childhood, married to Eleonore von Breuning.</sys:String>
+
+</ResourceDictionary>
