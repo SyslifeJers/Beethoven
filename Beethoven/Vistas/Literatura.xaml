@@ -21,26 +21,27 @@
 
         <TextBlock Margin="0,40,0,0" Grid.Column="0" Grid.Row="0" FontSize="24" HorizontalAlignment="Center" Grid.ColumnSpan="3" Text="{DynamicResource Title}" />
 
-        <StackPanel Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" >
-            <TextBlock Foreground="White"  FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
+        <ScrollViewer Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <TextBlock Foreground="White" FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
             <Run Text="{DynamicResource Text1}" Foreground="Red" />
-             <LineBreak/>
-                  <LineBreak/>
-           <Run Text="{DynamicResource Text2}"  />
-                  <LineBreak/>
-                  <LineBreak/>
-                <Run Text="{DynamicResource Text3}" />
-                 <LineBreak/>
- <LineBreak/>
-                <Run Text="{DynamicResource Text4}" Foreground="red" />
-                                  <LineBreak/>
-                  <LineBreak/>
-                <Run Text="{DynamicResource Text5}" />
-                 <LineBreak/>
- <LineBreak/>
-                <Run Text="{DynamicResource Text6}" />
-            </TextBlock>
-
-        </StackPanel>
+            <LineBreak />
+            <LineBreak />
+            <Run Text="{DynamicResource Text2}" />
+            <LineBreak />
+            <LineBreak />
+            <Run Text="{DynamicResource Text3}" />
+            <LineBreak />
+            <LineBreak />
+            <Run Text="{DynamicResource Text4}" Foreground="Red" />
+            <LineBreak />
+            <LineBreak />
+            <Run Text="{DynamicResource Text5}" />
+            <LineBreak />
+            <LineBreak />
+            <Run Text="{DynamicResource Text6}" />
+                </TextBlock>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>

@@ -21,8 +21,9 @@
 
         <TextBlock Margin="0,40,0,0" Grid.Column="0" Grid.Row="0" FontSize="24" HorizontalAlignment="Center" Grid.ColumnSpan="3" Text="{DynamicResource Title}" />
 
-        <StackPanel Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" >
-            <TextBlock Foreground="White"  FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
+        <ScrollViewer Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <TextBlock Foreground="White"  FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
             <Run Text="{DynamicResource Text1}" />
              <LineBreak/>
              <LineBreak/>
@@ -34,8 +35,8 @@
             <LineBreak/>
             <Run Text="{DynamicResource Text4}" />
                         <LineBreak/>
-            </TextBlock>
-
-        </StackPanel>
+                </TextBlock>
+            </StackPanel>
+        </ScrollViewer>
           </Grid>
 </Page>

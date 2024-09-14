@@ -22,12 +22,11 @@
         <TextBlock Margin="0,40,0,0" Grid.Column="0" Grid.Row="0" FontSize="24" HorizontalAlignment="Center" Grid.ColumnSpan="3" Text="{DynamicResource Title}" />
 
         <!-- Dynamic text in StackPanel -->
-        <StackPanel Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2">
+        <StackPanel Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Margin="0,0,0,10">
             <TextBlock FontStyle="Italic" FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
            <Run Text="{DynamicResource Text1}" />
            <LineBreak/>
-           <LineBreak/>
-           <Run Text="{DynamicResource Text2}" />
+
             </TextBlock>
         </StackPanel>
 
@@ -39,6 +38,9 @@
             </Grid.ColumnDefinitions>
             <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
                 <TextBlock Foreground="White" FontSize="18" HorizontalAlignment="Stretch" TextWrapping="Wrap">
+                               <LineBreak/>
+           <Run Text="{DynamicResource Text2}" />
+                    <LineBreak/>
                <Run Text="{DynamicResource Text3}" />
                <LineBreak/>
                <LineBreak/>

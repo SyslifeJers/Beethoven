@@ -5,77 +5,82 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Beethoven"
         mc:Ignorable="d"
-        Title="MainWindow" Height="650" Width="1200">
+        Title="MainWindow" Height="720" Width="1280">
     <Window.Background>
         <ImageBrush ImageSource="Recursos/saver.jpg"/>
     </Window.Background>
+    <Window.Resources>
+    <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="Arial" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+    </Window.Resources>
     <Grid Margin="10,0,0,0">
         <Grid.Background>
             <ImageBrush/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="380" />
+            <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Column="1">
-            <Button Margin="0,30,0,0" Height="80" Width="80" Click="ChangeLanguage_Click">
-                <Button.Background>
-                    <ImageBrush ImageSource="Recursos/idioma.png" />
-                </Button.Background>
-            </Button>
-            <TreeView Margin="0,30,0,0" Background="Transparent" x:Name="MyTreeView" SelectedItemChanged="MyTreeView_SelectedItemChanged" BorderBrush="Transparent">
-                <TreeViewItem x:Name="BonnItem" Header="{DynamicResource Tit1}">
-                    <TreeViewItem x:Name="FamilyChildhoodItem" Header="{DynamicResource Tit2}" Tag="BonnPage" />
-                    <TreeViewItem x:Name="TuitionNeefeItem" Header="{DynamicResource Tit3}" Tag="Clases" />
-                    <TreeViewItem x:Name="MusicianBonnItem" Header="{DynamicResource Tit4}" Tag="Musico" />
-                </TreeViewItem>
-            </TreeView>
-            <TreeView Background="Transparent" BorderBrush="Transparent" SelectedItemChanged="MyTreeView_SelectedItemChanged">
-                <TreeViewItem Header="{DynamicResource Tit15}">
-                    <TreeViewItem Header="{DynamicResource Tit6}" Selected="TreeViewItem_Selected" Tag="Independiente" />
-                    <TreeViewItem Header="{DynamicResource Tit7}" Selected="TreeViewItem_Selected" Tag="Testamento" />
-                    <TreeViewItem Header="{DynamicResource Tit8}" Selected="TreeViewItem_Selected" Tag="Heroica" />
-                    <TreeViewItem Header="{DynamicResource Tit9}" Selected="TreeViewItem_Selected" Tag="Apogeo" />
-                    <TreeViewItem Header="{DynamicResource Tit10}" Selected="TreeViewItem_Selected" Tag="Ultimos" />
-                </TreeViewItem>
-            </TreeView>
+        <StackPanel Grid.Column="1" >
+            <StackPanel HorizontalAlignment="Center" Margin="10"  Orientation="Horizontal">
+                <Button Content="Regresar"  FontSize="20"   Click="BackButton_Click" Margin="10" Background="Black"  />
 
-            <TreeView Background="Transparent" BorderBrush="Transparent" SelectedItemChanged="MyTreeView_SelectedItemChanged">
-                <TreeViewItem Header="{DynamicResource Tit11}" >
-                    <TreeViewItem Header="{DynamicResource Tit12}" Selected="TreeViewItem_Selected" Tag="Sobrino" />
-                    <TreeViewItem Header="{DynamicResource Tit13}" Selected="TreeViewItem_Selected" Tag="amigos" />
-                    <TreeViewItem Header="{DynamicResource Tit14}" Selected="TreeViewItem_Selected" Tag="BethoveenyGoet" />
-                </TreeViewItem>
-            </TreeView>
+                <Button Margin="0,0,0,0" Height="80" Width="80" Click="ChangeLanguage_Click">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Recursos/idioma.png" />
+                    </Button.Background>
+                </Button>
+                <Button Content="Siguiente"  FontSize="20" Click="NextButton_Click" Margin="10" Background="Black" />
+            </StackPanel>
 
-            <TreeView Background="Transparent" BorderBrush="Transparent" SelectedItemChanged="MyTreeView_SelectedItemChanged">
-                <TreeViewItem Header="{DynamicResource Tit15}">
-                    <TreeViewItem Header="{DynamicResource Tit16}" Selected="TreeViewItem_Selected" Tag="Cuaderno" />
-                    <TreeViewItem Header="{DynamicResource Tit17}" Selected="TreeViewItem_Selected" Tag="Casa" />
-                </TreeViewItem>
-            </TreeView>
+            <!-- Expander para la sección de Bonn -->
+            <Expander x:Name="Expander1" Header="{DynamicResource Tit1}" Background="Transparent" Expanded="Expander_Expanded1">
+                <StackPanel>
+                    <Button Content="{DynamicResource Tit2}" Tag="BonnPage" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit3}" Tag="Clases" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit4}" Tag="Musico" Click="Navigate_Click" Background="Transparent" />
+                </StackPanel>
+            </Expander>
 
-            <ListBox BorderBrush="Transparent" x:Name="MenuListBox" Background="Transparent"  SelectionChanged="MenuListBox_SelectionChanged"   Margin="10">
-                <!-- Submenú de Bonn -->
-                <!-- Otras opciones del menú principal -->
+            <Expander x:Name="Expander2" Header="{DynamicResource Tit5}" Background="Transparent" Expanded="Expander_Expanded2">
+                <StackPanel>
+                    <Button Content="{DynamicResource Tit6}" Tag="Independiente" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit7}" Tag="Testamento" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit8}" Tag="Heroica" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit9}" Tag="Apogeo" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit10}" Tag="Ultimos" Click="Navigate_Click" Background="Transparent" />
+                </StackPanel>
+            </Expander>
+
+            <Expander x:Name="Expander3" Header="{DynamicResource Tit11}" Background="Transparent" Expanded="Expander_Expanded3">
+                <StackPanel>
+                    <Button Content="{DynamicResource Tit12}" Tag="Sobrino" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit13}" Tag="amigos" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit14}" Tag="BethoveenyGoet" Click="Navigate_Click" Background="Transparent" />
+                </StackPanel>
+            </Expander>
+
+            <Expander x:Name="Expander4" Header="{DynamicResource Tit15}" Background="Transparent" Expanded="Expander_Expanded4">
+                <StackPanel>
+                    <Button Content="{DynamicResource Tit16}" Tag="Cuaderno" Click="Navigate_Click" Background="Transparent" />
+                    <Button Content="{DynamicResource Tit17}" Tag="Casa" Click="Navigate_Click" Background="Transparent" />
+                </StackPanel>
+            </Expander>
 
 
+            <!-- ListBox para otras opciones del menú -->
+            <ListBox BorderBrush="Transparent" x:Name="MenuListBox" Background="Transparent"  SelectionChanged="MenuListBox_SelectionChanged" Margin="10">
                 <ListBoxItem Content="{DynamicResource Tit18}" Tag="Obras" />
                 <ListBoxItem Content="{DynamicResource Tit19}" Tag="Literatura" />
                 <ListBoxItem Content="{DynamicResource Tit20}" Tag="FuenteImagenes" />
             </ListBox>
         </StackPanel>
-        <!-- Menú lateral -->
-
-
 
         <!-- Área de contenido -->
         <Frame x:Name="ContentFrame" Grid.Column="0" NavigationUIVisibility="Hidden" />
         <StackPanel Grid.Column="1" VerticalAlignment="Bottom" Orientation="Horizontal">
-            <Button Content="Regresar"  FontSize="20"   Click="BackButton_Click" Margin="10,10,10,100" Background="Black" Width="150" Height="50"/>
-            <Button Content="Siguiente"  FontSize="20" Click="NextButton_Click" Margin="10,10,10,100" Width="150" Background="Black" Height="50"/>
         </StackPanel>
-       
-
     </Grid>
 </Window>

@@ -11,7 +11,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using System.IO;
 
 namespace Beethoven.Vistas
 {
@@ -25,7 +25,6 @@ namespace Beethoven.Vistas
             InitializeComponent();
             LoadLanguage(SessionManager.CurrentLanguage);
         }
-
 
         private void LoadLanguage(string cultureCode)
         {
