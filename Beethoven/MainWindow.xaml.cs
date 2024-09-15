@@ -9,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
 using System.Globalization;
+using System.Windows.Threading;
 
 
 namespace Beethoven
@@ -29,11 +30,64 @@ namespace Beethoven
         private MediaPlayer mediaPlayer;
         private string[] audioFiles;
         private int currentFileIndex = 0;
+        private DispatcherTimer _inactivityTimer;
+        public MainWindow()
+        {
+            InitializeComponent();
+            this.WindowStyle = WindowStyle.None;
+            this.WindowState = WindowState.Maximized;
+            this.ResizeMode = ResizeMode.NoResize;
+            this.Topmost = true;
+
+            mediaPlayer = new MediaPlayer();
+            GetMusica = new Musica();
+            // Reproducir el archivo menu.mp3 al iniciar la aplicación
+            PlayMenuAudio();
+            SessionManager.CurrentLanguage = "es-ES";
+            LoadLanguage(SessionManager.CurrentLanguage);
+           
+            _inactivityTimer = new DispatcherTimer();
+            _inactivityTimer.Interval = TimeSpan.FromMinutes(5); // 5 minutos de inactividad
+            _inactivityTimer.Tick += InactivityTimer_Tick;
+
+            // Suscribirse a los eventos de entrada del usuario
+            this.MouseMove += ResetInactivityTimer;
+            this.KeyDown += ResetInactivityTimer;
+
+            // Iniciar el temporizador
+            _inactivityTimer.Start();
+        }
+        // Método que se ejecuta cuando el temporizador alcanza los 5 minutos de inactividad
+        private void InactivityTimer_Tick(object sender, EventArgs e)
+        {
+            // Ejecuta el método que desees
+            EjecutarMetodoPorInactividad();
+
+            // Reinicia el temporizador para seguir monitoreando
+            _inactivityTimer.Stop();
+            _inactivityTimer.Start();
+        }
+
+        // Restablece el temporizador cuando hay actividad del usuario
+        private void ResetInactivityTimer(object sender, EventArgs e)
+        {
+            _inactivityTimer.Stop(); // Detener el temporizador
+            _inactivityTimer.Start(); // Reiniciar el temporizador
+        }
+
+        // Método que se ejecuta cuando se detecta inactividad
+        private void EjecutarMetodoPorInactividad()
+        {
+            ContentFrame.Content = null;
+            this.Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Recursos/saver.jpg")));
+            // Aquí puedes colocar el código que deseas ejecutar
+        }
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
             // Si es posible retroceder, ejecuta el comando de navegación hacia atrás
             if (ContentFrame.CanGoBack)
             {
+                GetMusica.StopMenuAudio();
                 ContentFrame.GoBack();
             }
         }
@@ -102,22 +156,7 @@ namespace Beethoven
                 }
             }
         }
-        public MainWindow()
-        {
-            InitializeComponent();
-            this.WindowStyle = WindowStyle.None;
-            this.WindowState = WindowState.Maximized;
-            this.ResizeMode = ResizeMode.NoResize;
-            this.Topmost = true;
 
-            mediaPlayer = new MediaPlayer();
-
-            // Reproducir el archivo menu.mp3 al iniciar la aplicación
-            PlayMenuAudio();
-            SessionManager.CurrentLanguage = "es-ES";
-            LoadLanguage(SessionManager.CurrentLanguage);
-            GetMusica = new Musica();
-        }
 
         private void LoadLanguage(string cultureCode)
         {
@@ -167,6 +206,7 @@ namespace Beethoven
 
         private void PlayMenuAudio()
         {
+            GetMusica.StopMenuAudio();
             string audio = "menu.mp3";
             if (SessionManager.CurrentLanguage != "es-ES")
             {
@@ -311,146 +351,6 @@ namespace Beethoven
             Expander4.IsExpanded = false;
         }
 
-        //private void MyTreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
-        //{
-        //    TreeView selectedTreeView = sender as TreeView;
-
-        //    if (selectedTreeView != null)
-        //    {
-        //        // Expandimos el árbol seleccionado
-        //        ToggleExpandCollapse(selectedTreeView);
-
-        //        // Colapsamos y deseleccionamos los otros TreeView que no han sido seleccionados
-        //        CollapseAndDeselectOtherTrees(selectedTreeView);
-
-        //        // Navegamos a la página correspondiente dependiendo del TreeView seleccionado
-        //        if (selectedTreeView == MyTreeView)
-        //        {
-        //            goNavi("BonnPage");
-        //        }
-        //        else if (selectedTreeView == MyTreeView2)
-        //        {
-        //            goNavi("Independiente");
-        //        }
-        //        else if (selectedTreeView == MyTreeView3)
-        //        {
-        //            goNavi("Sobrino");
-        //        }
-        //        else if (selectedTreeView == MyTreeView4)
-        //        {
-        //            goNavi("Cuaderno");
-        //        }
-        //    }
-        //}
-
-
-        //private void ToggleExpandCollapse(ItemsControl parent)
-        //{
-        //    foreach (var item in parent.Items)
-        //    {
-        //        TreeViewItem treeItem = parent.ItemContainerGenerator.ContainerFromItem(item) as TreeViewItem;
-
-        //        if (treeItem != null)
-        //        {
-        //            // Alternamos el estado de expansión
-        //            treeItem.IsExpanded = !treeItem.IsExpanded;
-
-        //            // Si se expande, comprobamos los hijos para alternarlos también
-        //            if (treeItem.IsExpanded)
-        //            {
-        //                ToggleExpandCollapse(treeItem);
-        //            }
-
-        //        }
-        //    }
-        //}
-
-        //private void CollapseAndDeselectOtherTrees(TreeView expandedTree)
-        //{
-        //    // Colapsamos y deseleccionamos todos los demás árboles que no sean el seleccionado
-        //    if (MyTreeView != expandedTree)
-        //    {
-        //        CollapseTreeView(MyTreeView);
-        //        DeselectTreeView(MyTreeView); // Deseleccionamos
-        //    }
-        //    if (MyTreeView2 != expandedTree)
-        //    {
-        //        CollapseTreeView(MyTreeView2);
-        //        DeselectTreeView(MyTreeView2); // Deseleccionamos
-        //    }
-        //    if (MyTreeView3 != expandedTree)
-        //    {
-        //        CollapseTreeView(MyTreeView3);
-        //        DeselectTreeView(MyTreeView3); // Deseleccionamos
-        //    }
-        //    if (MyTreeView4 != expandedTree)
-        //    {
-        //        CollapseTreeView(MyTreeView4);
-        //        DeselectTreeView(MyTreeView4); // Deseleccionamos
-        //    }
-        //}
-        //private void DeselectTreeView(TreeView treeView)
-        //{
-        //    // Recorremos cada ítem y deseleccionamos si está seleccionado
-        //    foreach (var item in treeView.Items)
-        //    {
-        //        TreeViewItem treeItem = treeView.ItemContainerGenerator.ContainerFromItem(item) as TreeViewItem;
-
-        //        if (treeItem != null && treeItem.IsSelected)
-        //        {
-        //            treeItem.IsSelected = false; // Deseleccionamos manualmente
-        //        }
-
-        //        // Verificamos si tiene hijos seleccionados
-        //        DeselectChildren(treeItem);
-        //    }
-        //}
-        //private void DeselectChildren(ItemsControl parent)
-        //{
-        //    if (parent!=null)
-        //    {
-        //        foreach (var item in parent.Items)
-        //        {
-        //            TreeViewItem treeItem = parent.ItemContainerGenerator.ContainerFromItem(item) as TreeViewItem;
-
-        //            if (treeItem != null && treeItem.IsSelected)
-        //            {
-        //                treeItem.IsSelected = false; // Deseleccionamos manualmente
-        //            }
-
-        //            // Repetimos para los hijos
-        //            DeselectChildren(treeItem);
-        //        } 
-        //    }
-        //}
-
-        //private void CollapseTreeView(TreeView treeView)
-        //{
-        //    foreach (var item in treeView.Items)
-        //    {
-        //        TreeViewItem treeItem = treeView.ItemContainerGenerator.ContainerFromItem(item) as TreeViewItem;
-
-        //        if (treeItem != null)
-        //        {
-        //            treeItem.IsExpanded = false;
-        //            CollapseChildren(treeItem);
-        //        }
-        //    }
-        //}
-
-        //private void CollapseChildren(ItemsControl parent)
-        //{
-        //    foreach (var item in parent.Items)
-        //    {
-        //        TreeViewItem treeItem = parent.ItemContainerGenerator.ContainerFromItem(item) as TreeViewItem;
-
-        //        if (treeItem != null)
-        //        {
-        //            treeItem.IsExpanded = false;
-        //            CollapseChildren(treeItem);
-        //        }
-        //    }
-        //}
-
+       
     }
 }

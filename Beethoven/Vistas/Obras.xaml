@@ -46,20 +46,7 @@
                                  <LineBreak/>
 <Run Text="{DynamicResource Text11}" />
                                  <LineBreak/>
-                                 <LineBreak/>
-<Run Text="{DynamicResource Text12}" />
-                                                 <LineBreak/>
-                                 <LineBreak/>
-<Run Text="{DynamicResource Text13}" />
-                                                 <LineBreak/>
-<Run Text="{DynamicResource Text14}" />
-                                                 <LineBreak/>
-                                 <LineBreak/>
-<Run Text="{DynamicResource Text15}" />
-                                                 <LineBreak/>
-<Run Text="{DynamicResource Text16}" />
-                                                 <LineBreak/>
-<Run Text="{DynamicResource Text17}" />
+
             </TextBlock>
 
         </StackPanel>

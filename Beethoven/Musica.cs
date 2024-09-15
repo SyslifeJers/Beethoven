@@ -59,8 +59,12 @@ namespace Beethoven
 
             }
         }
+        public void StopMenuAudio()
+        {
+            mediaPlayer.Stop();
+        }
 
-        private void PlayMenuAudio(string audio)
+            private void PlayMenuAudio(string audio)
         {
             mediaPlayer.Stop();
             
